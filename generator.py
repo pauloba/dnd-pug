@@ -889,7 +889,7 @@ DATA_ES = {
         "Un héroe local que defiende al pueblo llano de {settlement} frente a la influencia de {faction}.",
     ],
     "labels": {
-        "character_sheet": "HOJA DE PERSONAJE D&D",
+        "character_sheet": "",
         "name": "Nombre",
         "race": "Raza",
         "class": "Clase",
@@ -2147,6 +2147,15 @@ def create_character_pdf(
     starting_equipment = combat.get("starting_equipment", "None")
     magic_spells = combat.get("magic_spells", "None")
 
+    subclass_html = ""
+    if char_data["level"] >= 3:
+        subclass_html = f"""
+            <div class="profile-item">
+                <label>{labels['subclass']}</label>
+                <span>{char_data['subclass']}</span>
+            </div>
+        """
+
     html_content = f"""
     <!DOCTYPE html>
     <html>
@@ -2373,6 +2382,7 @@ def create_character_pdf(
                 <label>{labels['class']}</label>
                 <span>{char_data['class']} ({char_data['subclass']})</span>
             </div>
+            {subclass_html}
             <div class="profile-item">
                 <label>{labels['level']}</label>
                 <span>{char_data['level']}</span>
@@ -2449,7 +2459,7 @@ def create_character_pdf(
 # ==========================================
 
 def generate_procedural_universe(
-    theme_choice: str, num_players: int, lang_choice: str
+    theme_choice: str, num_players: int, lang_choice: str, character_level: int
 ):
     """Main execution workflow creating folder, game.pdf, and player character sheets."""
     is_es = lang_choice == "2"
@@ -2525,7 +2535,7 @@ def generate_procedural_universe(
             "race": race,
             "class": cls,
             "subclass": subclass,
-            "level": 1,
+            "level": character_level,
             "background": bg,
             "faction": faction,
             "alignment": alignment,
@@ -2603,8 +2613,18 @@ def main():
     except ValueError:
         num_players = 4
 
+    character_level_input = input(
+        "Enter Character Level [1+] (Default 1): "
+    ).strip()
+    try:
+        character_level = int(character_level_input)
+        if character_level < 1:
+            character_level = 1
+    except ValueError:
+        character_level = 1
+
     print("\n[Engine] Synthesizing procedural world, lore chronicle, encounters, and character sheets...")
-    generate_procedural_universe(theme_choice, num_players, lang_choice)
+    generate_procedural_universe(theme_choice, num_players, lang_choice, character_level)
 
 if __name__ == "__main__":
     main()
