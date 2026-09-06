@@ -45,9 +45,11 @@ Each run generates:
 There are 9 themes, with 4 campaign stories per theme. English and Spanish
 each contain 36 localized story variants, representing 36 story concepts.
 
-The battles are fixed per theme and language rather than procedurally
-randomized. Each theme has three encounters: an introductory battle, an
-escalating battle, and a final boss battle.
+The battles are fixed per theme and language rather than procedurally randomized. 
+Each theme has 3 encounters: 
+1. an introductory battle
+2. an escalating battle
+3. a final boss battle
 
 The available themes are:
 
