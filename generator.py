@@ -2369,7 +2369,6 @@ def create_character_pdf(
     </head>
     <body>
         <div class="header">
-            <h1>{labels['character_sheet']}</h1>
             <div class="char-name">{char_data['name']}</div>
         </div>
 
