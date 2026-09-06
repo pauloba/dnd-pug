@@ -65,5 +65,5 @@ The available themes are:
 
 The generator creates the next unused folder in the directory where it is run: `game1`, `game2`, and so on. Each folder contains:
 
-- `game.pdf`: the universe manual and a guide for the Dungeon Master, including the world overview, campaign conflict, factions, settlements, party roster, and encounter dossier.
+- `game.pdf`: the universe manual that serves as a guide for the Dungeon Master, including the world overview, campaign conflict, factions, settlements, party roster, and encounter dossier.
 - `character1.pdf`, `character2.pdf`, and so on: one character sheet per generated character.
