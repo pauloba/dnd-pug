@@ -1,0 +1,110 @@
+{
+  "champion": {
+    "name": "Campeón",
+    "description": "Se enfoca en la fuerza física pura, perfeccionando sus ataques para asestar golpes críticos devastadores."
+  },
+  "battle_master": {
+    "name": "Maestro del Combate",
+    "description": "Emplea maniobras tácticas y dados de superioridad para dominar tácticamente el campo de batalla."
+  },
+  "eldritch_knight": {
+    "name": "Caballero Arcano",
+    "description": "Combina la destreza marcial con magia de abjuración y evocación para una gran versatilidad."
+  },
+  "school_of_evocation": {
+    "name": "Escuela de Evocación",
+    "description": "Maestro de las fuerzas elementales, moldea potentes conjuros destructivos protegiendo a sus aliados."
+  },
+  "school_of_abjuration": {
+    "name": "Escuela de Abjuración",
+    "description": "Especializado en barreras protectoras, contrahechizos y magia defensiva de contención."
+  },
+  "school_of_divination": {
+    "name": "Escuela de Adivinación",
+    "description": "Atisba el futuro para alterar el destino, previendo los resultados antes de que sucedan."
+  },
+  "thief": {
+    "name": "Ladrón",
+    "description": "Mejora la agilidad y el sigilo, forzando cerraduras y usando objetos rápidamente en pleno combate."
+  },
+  "assassin": {
+    "name": "Asesino",
+    "description": "Maestro del ataque sorpresa, el disfraz y mortales venenos infligidos desde las sombras."
+  },
+  "arcane_trickster": {
+    "name": "Embaucador Arcano",
+    "description": "Potencia el sigilo del pícaro mediante hechizos de ilusión y encantamiento para confundir al rival."
+  },
+  "life_domain": {
+    "name": "Dominio de la Vida",
+    "description": "Canalizador de energía divina centrado en restaurar la salud y preservar la vida de sus aliados."
+  },
+  "light_domain": {
+    "name": "Dominio de la Luz",
+    "description": "Maneja el fuego divino y una luz radiante e cegadora para abrasar a las criaturas de la oscuridad."
+  },
+  "war_domain": {
+    "name": "Dominio de la Guerra",
+    "description": "Un guerrero santo que inspira la excelencia marcial y otorga ataques guiados por su fe."
+  },
+  "hunter": {
+    "name": "Cazador",
+    "description": "Especializado en combatir contra hordas de enemigos o bestias gigantes mediante técnicas avanzadas."
+  },
+  "beast_master": {
+    "name": "Maestro de Bestias",
+    "description": "Forja un vínculo profundo con un compañero animal salvaje que lucha lealmente a su lado."
+  },
+  "gloom_stalker": {
+    "name": "Cazador de Sombras",
+    "description": "Un emboscador de tierras salvajes que domina la oscuridad profunda y las cavernas subterráneas."
+  },
+  "oath_of_devotion": {
+    "name": "Juramento de Devoción",
+    "description": "Encarna el ideal del caballero de brillante armadura, guiado firmemente por el honor y la justicia."
+  },
+  "oath_of_the_ancients": {
+    "name": "Juramento de los Antiguos",
+    "description": "Lucha por la luz y la naturaleza, preservando la vida, la belleza y la vegetación ancestral."
+  },
+  "oath_of_vengeance": {
+    "name": "Juramento de Venganza",
+    "description": "Un castigador implacable que persigue a los malhechores para impartir retribución estricta."
+  },
+  "college_of_lore": {
+    "name": "Colegio del Conocimiento",
+    "description": "Reúne saberes y secretos de múltiples campos, tejiendo palabras cortantes y conjuros extra."
+  },
+  "college_of_valor": {
+    "name": "Colegio del Valor",
+    "description": "Entona épicas sagas para inspirar a sus aliados en combate marcial mientras viste armadura pesada."
+  },
+  "college_of_glamour": {
+    "name": "Colegio del Glamour",
+    "description": "Canaliza magia feérica para cautivar audiencias y exigir respeto con una gracia deslumbrante."
+  },
+  "circle_of_the_land": {
+    "name": "Círculo de la Tierra",
+    "description": "Preserva tradiciones místicas antiguas y extrae poder directamente de diversos terrenos salvajes."
+  },
+  "circle_of_the_moon": {
+    "name": "Círculo de la Luna",
+    "description": "Maestro de la forma salvaje, transformándose en poderosas bestias elementales durante el combate."
+  },
+  "circle_of_stars": {
+    "name": "Círculo de las Estrellas",
+    "description": "Aprovecha las constelaciones celestiales para canalizar luz radiante y presagios cósmicos."
+  },
+  "the_fiend": {
+    "name": "El Primordial",
+    "description": "Vinculado a un demonio o diablo de los planos inferiores, obteniendo magia de fuego y vitalidad oscura."
+  },
+  "the_great_old_one": {
+    "name": "El Gran Antiguo",
+    "description": "Obtiene poderes mentales alienígenas e inquietantes de entidades cósmicas más allá de las estrellas."
+  },
+  "the_archfey": {
+    "name": "El Archifeérico",
+    "description": "Maneja magia feérica caprichosa y engañosa para fascinar, aterrorizar y teleportarse con soltura."
+  }
+}

@@ -1,0 +1,95 @@
+{% extends "base.html.j2" %}
+
+{% block title %}{{ labels['character_sheet'] }} - {{ character.name }}{% endblock %}
+
+{% block body %}
+<div class="header">
+    <div class="char-name">{{ character.name }}</div>
+</div>
+
+<div class="profile-grid">
+    <div class="profile-item">
+        <label>{{ labels['race'] }}</label>
+        <span>{{ character.race }}</span>
+    </div>
+    <div class="profile-item">
+        <label>{{ labels['class'] }}</label>
+        <span>{{ character.class_name }} ({{ character.subclass }})</span>
+    </div>
+    {% if character.shows_subclass_field %}
+    <div class="profile-item">
+        <label>{{ labels['subclass'] }}</label>
+        <span>{{ character.subclass }}</span>
+    </div>
+    {% endif %}
+    <div class="profile-item">
+        <label>{{ labels['level'] }}</label>
+        <span>{{ character.level }}</span>
+    </div>
+    <div class="profile-item">
+        <label>{{ labels['background'] }}</label>
+        <span>{{ character.background }}</span>
+    </div>
+    <div class="profile-item">
+        <label>{{ labels['faction'] }}</label>
+        <span>{{ character.faction }}</span>
+    </div>
+    <div class="profile-item">
+        <label>{{ labels['alignment'] }}</label>
+        <span>{{ character.alignment }}</span>
+    </div>
+</div>
+
+<div class="section-title">{{ labels['identity_overview'] }}</div>
+<div class="desc-box">
+    <p><b>{{ labels['race'] }} ({{ character.race }}):</b> {{ character.race_description }}</p>
+    <p><b>{{ labels['class'] }} ({{ character.class_name }} - {{ character.subclass }}):</b> {{ character.class_description }} {{ character.subclass_description }}</p>
+    <p><b>{{ labels['background'] }} ({{ character.background }}):</b> {{ character.background_description }}</p>
+    <p><b>{{ labels['alignment'] }} ({{ character.alignment }}):</b> {{ character.alignment_description }}</p>
+</div>
+
+<div class="section-title">{{ labels['attributes'] }}</div>
+<div class="stats-container">
+    {% for stat in character.stats %}
+    <div class="stat-box">
+        <div class="stat-label">{{ stat.label }} ({{ stat.attribute }})</div>
+        <div class="stat-score">{{ stat.score }}</div>
+        <div class="stat-mod">{{ stat.modifier | signed }}</div>
+        {% if stat.skills %}
+        <div class="skill-list">{{ stat.skills | join(', ') }}</div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+
+{% set combat_squares = [
+    (labels['hp'], character.hit_points),
+    (labels['ac'], character.armor_class),
+    (labels['initiative'], character.initiative | signed),
+    (labels['proficiency'], character.proficiency | signed),
+] %}
+<div class="section-title">{{ labels['combat_title'] }}</div>
+<div class="combat-squares">
+    {% for label, value in combat_squares %}
+    <div class="combat-square">
+        <div class="combat-square-label">{{ label }}</div>
+        <div class="combat-square-value">{{ value }}</div>
+    </div>
+    {% endfor %}
+</div>
+<div class="combat-text-lines">
+    <div class="combat-text-line"><b>{{ labels['equipped_armor'] }}:</b> {{ character.armor }}</div>
+    <div class="combat-text-line"><b>{{ labels['main_attack'] }}:</b> {{ character.main_attack }}</div>
+</div>
+
+<div class="section-title">{{ labels['inventory_magic_title'] }}</div>
+<div class="inventory-magic-box">
+    <div class="inv-item"><b>{{ labels['starting_equipment'] }}:</b> {{ character.starting_equipment }}</div>
+    <div class="inv-item"><b>{{ labels['magic_spells'] }}:</b> {{ character.spells }}</div>
+</div>
+
+<div class="section-title">{{ labels['backstory_hook'] }}</div>
+<div class="hook-box">
+    "{{ character.hook }}"
+</div>
+{% endblock %}

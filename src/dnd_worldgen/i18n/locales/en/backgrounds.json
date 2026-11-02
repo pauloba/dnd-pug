@@ -1,0 +1,34 @@
+{
+  "acolyte": {
+    "name": "Acolyte",
+    "description": "Spent years in service at a temple, acting as an intermediary between mortal life and the divine."
+  },
+  "criminal": {
+    "name": "Criminal",
+    "description": "A seasoned lawbreaker with a history of illicit dealings and underworld contacts."
+  },
+  "folk_hero": {
+    "name": "Folk Hero",
+    "description": "A champion of the common people whose courage stands against oppression and danger."
+  },
+  "noble": {
+    "name": "Noble",
+    "description": "Born into wealth and privilege, accustomed to influence, high societal expectations, and power."
+  },
+  "sage": {
+    "name": "Sage",
+    "description": "A dedicated scholar who spent years gathering lore, research, and ancient knowledge."
+  },
+  "soldier": {
+    "name": "Soldier",
+    "description": "Trained in tactical warfare, disciplined combat tactics, and military life on the battlefield."
+  },
+  "urchin": {
+    "name": "Urchin",
+    "description": "Grew up poor and homeless, relying on quick wits and street instincts to survive."
+  },
+  "outlander": {
+    "name": "Outlander",
+    "description": "Raised in the wild far from civilization, expert in survival, tracking, and nature."
+  }
+}

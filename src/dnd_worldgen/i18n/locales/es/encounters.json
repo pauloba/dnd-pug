@@ -1,0 +1,314 @@
+{
+  "locations": {
+    "abandoned_gear_sluice_substation": "Subestación de Compuertas de Engranajes Abandonada",
+    "pneumatic_freight_station_alpha": "Estación de Carga Neumática Alfa",
+    "the_grand_over_boiler_citadel": "La Ciudadela de la Gran Caldera Maestra",
+    "irradiated_ruins_outpost": "Puesto Avanzado en Ruinas Irradiadas",
+    "collapsed_mana_reactor_trench": "Trinchera del Reactor de Maná Colapsado",
+    "the_scorched_void_vault": "La Bóveda Abrasada del Vacío",
+    "rotting_barnacle_wharf": "Muelle de Escaramujos Podridos",
+    "submerged_cathedral_reef": "Arrecife de la Catedral Sumergida",
+    "the_sunless_trench_sanctum": "El Santuario de la Fosa Sin Sol",
+    "perilous_wind_bridge_outpost": "Puesto Avanzado del Puente de Viento Peligroso",
+    "shattered_astral_dockyard": "Astillero Astral Fragmentado",
+    "the_apex_gravity_core_engine": "El Motor del Núcleo Gravitacional Ápex",
+    "sun_bleached_dune_oasis": "Oasis de Dunas Blanqueadas por el Sol",
+    "buried_tomb_entrance": "Entrada a la Tumba Sepultada",
+    "the_solar_pharaohs_sanctum": "El Santuario del Faraón Solar",
+    "overgrown_photonic_nursery": "Vivero Fotónico Asilvestrado",
+    "bio_glass_prism_observatory": "Observatorio de Prismas de Bio-Cristal",
+    "the_heart_of_the_mother_tree": "El Corazón del Árbol Madre",
+    "fog_shrouded_bramble_hollow": "Hueco de Maleza Cubierto de Niebla",
+    "blackthorn_ritual_circle": "Círculo Ritual del Espino Negro",
+    "the_blood_moon_covenstead_altar": "El Altar del Aquelarre de la Luna de Sangre",
+    "cobblestone_crypt_entrance": "Entrada a las Criptas de Adoquines",
+    "scarlet_hold_ballroom": "Salón de Baile del Bastión Escarlata",
+    "the_grand_crimson_crypt_spire": "La Espira de la Gran Cripta Carmesí",
+    "ambushed_spice_route_oasis": "Oasis de la Ruta de las Especias Emboscado",
+    "fortified_silk_warehouse": "Almacén Fortificado de Seda",
+    "the_golden_lotus_pagoda_fortress": "Fortaleza Pagoda del Loto Dorado"
+  },
+  "enemies": {
+    "clockwork_scrapper": {
+      "name": "Chatarrero de Relojería",
+      "type": "Autómata",
+      "armour": "Placas de Latón Reforzado (CA 12)",
+      "goodies": "15 po, Engranaje de Cobre, Kit de Reparación Menor"
+    },
+    "grease_monkey_enforcer": {
+      "name": "Matón Engrasador",
+      "type": "Humanoide",
+      "armour": "Delantal de Cuero y Chaqueta Acolchada (CA 11)",
+      "goodies": "Frasco de Pólvora de Humo, Llave Inglesa, 10 po"
+    },
+    "steam_rig_heavy_sentry": {
+      "name": "Centinela Pesado a Vapor",
+      "type": "Autómata",
+      "armour": "Placa de Caldera de Hierro Remachado (CA 15)",
+      "goodies": "Manómetro de Presión Infundido en Éter, 45 po, Poción de Curación"
+    },
+    "aether_tech_saboteur": {
+      "name": "Saboteador de Tecnología Éter",
+      "type": "Humanoide",
+      "armour": "Cuero de Vuelo Reforzado (CA 13)",
+      "goodies": "Soplete de Arco Voltaico, Notas de Esquemas, 30 po"
+    },
+    "grand_archon_vane_the_steam_forged": {
+      "name": "Gran Arconte Vane el Forjado en Vapor",
+      "type": "Titán Mecánico",
+      "armour": "Armadura de Adamantina con Escudo de Éter (CA 18)",
+      "goodies": "Llave Reguladora Maestra de Éter, 200 po, Varita de Rayos Relámpago"
+    },
+    "mutated_scavenger": {
+      "name": "Carroñero Mutado",
+      "type": "Mutante",
+      "armour": "Cota de Chatarra Metálica (CA 12)",
+      "goodies": "12 po, Frasco de Agua Purificada, Daga de Hueso"
+    },
+    "dust_spitter_hound": {
+      "name": "Sabueso Escupe-Polvo",
+      "type": "Bestia",
+      "armour": "Pieles Calcificadas Gruesas (CA 11)",
+      "goodies": "Colmillo Mutado, Garras Afiladas"
+    },
+    "arcane_warped_marauder": {
+      "name": "Merodeador Deformado por la Magia",
+      "type": "Mutante",
+      "armour": "Armadura de Chatarra Endurecida (CA 14)",
+      "goodies": "Núcleo de Maná Cargado, 40 po, Ungüento Anti-Radiación"
+    },
+    "void_gazer_cultist": {
+      "name": "Cultista del Vacío",
+      "type": "Humanoide",
+      "armour": "Túnicas Grabadas con Runas (CA 12)",
+      "goodies": "Pergamino de Estallar, Esencia del Vacío, 25 po"
+    },
+    "abomination_lord_malakor": {
+      "name": "Señor Abominación Malakor",
+      "type": "Monstruosidad Arcana",
+      "armour": "Armadura de Quitina Cristalina (CA 17)",
+      "goodies": "Cristal Núcleo NEXUS, 180 po, Bastón de Fuego"
+    },
+    "drowned_deckhand": {
+      "name": "Marinero Ahogado",
+      "type": "No-Muerto",
+      "armour": "Cueros Harapientos de Marinero (CA 11)",
+      "goodies": "10 po, Diario Empapado, Alfanje Oxidado"
+    },
+    "brine_cult_initiate": {
+      "name": "Iniciado del Culto de la Salmuera",
+      "type": "Humanoide",
+      "armour": "Chaleco de Algas Marinas Gruesas (CA 11)",
+      "goodies": "Abalorio de Perla Negra, Poción de Natación"
+    },
+    "abyssal_deep_diver": {
+      "name": "Buzo de las Profundidades Abisales",
+      "type": "Monstruosidad",
+      "armour": "Traje Pesado de Buceo de Latón (CA 15)",
+      "goodies": "Válvula de Presión Profunda, 50 po, Anillo de Respiración Acuática"
+    },
+    "siren_siren_born_spellweaver": {
+      "name": "Tejedor de Conjuros Sireno",
+      "type": "Monstruosidad",
+      "armour": "Armadura de Escamas Bioluminiscentes (CA 13)",
+      "goodies": "Concha Cautivadora, 35 po"
+    },
+    "leviathan_priestess_isolda": {
+      "name": "Sacerdotisa Leviatán Isolda",
+      "type": "Noble Abisal",
+      "armour": "Placa de Coral Incrustado (CA 17)",
+      "goodies": "Tridente de las Profundidades, 220 po, Orbe del Maestro de Mares"
+    },
+    "sky_pirate_corsair": {
+      "name": "Corsario Pirata del Cielo",
+      "type": "Humanoide",
+      "armour": "Armadura de Cuero Reforzado (CA 12)",
+      "goodies": "14 po, Catalejo, Brújula de Viento"
+    },
+    "gale_wing_raptor": {
+      "name": "Raptor del Vendaval",
+      "type": "Bestia",
+      "armour": "Piel Plumosa Natural (CA 11)",
+      "goodies": "Plumas Afiladas, Talismán de Plumas"
+    },
+    "ether_sail_captain": {
+      "name": "Capitán Navegante de Éter",
+      "type": "Humanoide",
+      "armour": "Cuero Celeste Tachonado (CA 14)",
+      "goodies": "Pistola de Galerna, 55 po, Poción de Levitación"
+    },
+    "zephyr_elemental_construct": {
+      "name": "Constructo Elemental de Céfiro",
+      "type": "Elemental",
+      "armour": "Barrera de Niebla Arremolinada (CA 13)",
+      "goodies": "Esencia de Aire, Gema de Nube"
+    },
+    "sky_lord_vance_the_stormbringer": {
+      "name": "Señor del Cielo Vance el Traedor de Tormentas",
+      "type": "Humanoide",
+      "armour": "Malla de Dragón de Aetherium (CA 18)",
+      "goodies": "Fragmento de Gravidez Égida, 250 po, Botas de Levitación"
+    },
+    "sand_raider_nomad": {
+      "name": "Nómada Incursor de la Arena",
+      "type": "Humanoide",
+      "armour": "Túnica Acolchada del Desierto (CA 11)",
+      "goodies": "12 po, Cimitarra del Desierto, Mapa del Oasis"
+    },
+    "giant_dune_scorpion": {
+      "name": "Escorpión Gigante de las Dunas",
+      "type": "Bestia",
+      "armour": "Caparazón Quitinoso (CA 12)",
+      "goodies": "Saco de Veneno, Fragmento de Placa Quitinosa"
+    },
+    "sun_cult_zealot": {
+      "name": "Fanático del Culto Solar",
+      "type": "Humanoide",
+      "armour": "Cota de Escamas del Sol (CA 14)",
+      "goodies": "Medallón Solar, 45 po, Poción de Resistencia al Fuego"
+    },
+    "tomb_sentinel_construct": {
+      "name": "Centinela de Piedra de la Tumba",
+      "type": "Constructo",
+      "armour": "Placa de Arenisca Tallada (CA 15)",
+      "goodies": "Escarabajo Dorado, Ojo Incrustado de Gemas"
+    },
+    "pharaoh_kharon_the_eternal": {
+      "name": "Faraón Caronte el Eterno",
+      "type": "Monarca No-Muerto",
+      "armour": "Placa Solar Dorada (CA 18)",
+      "goodies": "Cetro de los Soles Gemelos, 300 po, Abalorio de Escarabajo de Salud"
+    },
+    "wild_flora_drone": {
+      "name": "Dron Flora Silvestre",
+      "type": "Constructo",
+      "armour": "Caparazón de Madera Endurecida (CA 12)",
+      "goodies": "10 po, Bulbo Bioluminiscente, Fibra Solar"
+    },
+    "rebel_eco_poacher": {
+      "name": "Furtivo Eco-Rebelde",
+      "type": "Humanoide",
+      "armour": "Traje de Malla de Hojas (CA 11)",
+      "goodies": "Red Atrapadora, 15 po, Bolsa de Hierbas"
+    },
+    "corrupted_photonic_weaver": {
+      "name": "Tejedor Fotónico Corrupto",
+      "type": "Humanoide",
+      "armour": "Armadura de Tejido Prismático (CA 14)",
+      "goodies": "Cristal de Enfoque de Luz, 50 po, Poción de Curación"
+    },
+    "chitin_vine_abomination": {
+      "name": "Abominación de Enredaderas Quitinosas",
+      "type": "Planta",
+      "armour": "Corteza de Espinas (CA 13)",
+      "goodies": "Vaina de Semilla Rara, Savia Regenerativa"
+    },
+    "arch_biomancer_helios": {
+      "name": "Arqui-Biomante Helios",
+      "type": "Planta/Humanoide",
+      "armour": "Malla de Corteza Petrificada Viva (CA 17)",
+      "goodies": "Semilla Prisma de Vida, 210 po, Anillo de Protección"
+    },
+    "bog_hag_acolyte": {
+      "name": "Acólita de la Bruja del Pantano",
+      "type": "Feérico",
+      "armour": "Piel de Cuervos (CA 11)",
+      "goodies": "11 po, Ojo de Tritón, Talismán de Maldición"
+    },
+    "imp_familiar": {
+      "name": "Familiar Duendecillo",
+      "type": "Demonio",
+      "armour": "Piel Infernal (CA 12)",
+      "goodies": "Cuerno Infernal, Frasco de Azufre"
+    },
+    "pact_bound_warlock": {
+      "name": "Brujo Vinculado por Pacto",
+      "type": "Humanoide",
+      "armour": "Túnicas Eldritch (CA 13)",
+      "goodies": "Pergamino de Reprensión Hellish, 45 po, Abalorio de Piedra de Sangre"
+    },
+    "bramble_shadow_beast": {
+      "name": "Bestia Sombreada de Espinos",
+      "type": "Monstruosidad",
+      "armour": "Armadura de Espinas Enredadas (CA 14)",
+      "goodies": "Corazón de Espino, Esencia de Sombra"
+    },
+    "matriarch_morrigan_the_hex_weaver": {
+      "name": "Matriarca Morrigan la Tejedora de Maleficios",
+      "type": "Feérico/Humanoide",
+      "armour": "Coraza de Pacto Sombreado (CA 17)",
+      "goodies": "Grimorio del Pacto Primordial, 240 po, Bastón del Guardián del Pacto"
+    },
+    "rival_blood_thrall_guard": {
+      "name": "Guardia Siervo de Sangre Rival",
+      "type": "Humanoide",
+      "armour": "Livrea de Terciopelo Acolchado (CA 11)",
+      "goodies": "15 po, Moneda de Plata, Daga de Acero"
+    },
+    "feral_vampire_bat_swarm": {
+      "name": "Enjambre de Murciélagos Vampíricos Ferales",
+      "type": "Bestia",
+      "armour": "Agilidad Evasiva (CA 12)",
+      "goodies": "Colmillo Vampírico, Ala de Murciélago"
+    },
+    "rival_clan_vampire_fencer": {
+      "name": "Esgrimista Vampiro del Clan Rival",
+      "type": "No-Muerto",
+      "armour": "Seda Tachonada Fina (CA 14)",
+      "goodies": "Roper Maestra, 60 po, Anillo con Rubí de Sangre"
+    },
+    "sanguine_blood_mage": {
+      "name": "Mago de Sangre Sanguíneo",
+      "type": "No-Muerto",
+      "armour": "Túnicas de la Corte Carmesí (CA 13)",
+      "goodies": "Vial de Sangre Pura, Pergamino de Toque Vampírico"
+    },
+    "count_vladislaus_the_blood_sovereign": {
+      "name": "Conde Vladislaus el Soberano de Sangre",
+      "type": "Señor Vampiro",
+      "armour": "Placa Sanguínea de la Noche (CA 18)",
+      "goodies": "Anillo del Sello de la Alta Corte, 350 po, Capa del Murciélago"
+    },
+    "caravan_bandit": {
+      "name": "Bandido de Caravanas",
+      "type": "Humanoide",
+      "armour": "Seda Acolchada Ligera (CA 11)",
+      "goodies": "18 po, Bolsa de Canela Exótica, Cimitarra"
+    },
+    "trained_attack_falcon": {
+      "name": "Halcón de Ataque Entrenado",
+      "type": "Bestia",
+      "armour": "Vuelo Rápido (CA 12)",
+      "goodies": "Silbato de Plumas"
+    },
+    "mercenary_guild_enforcer": {
+      "name": "Matón del Gremio de Mercenarios",
+      "type": "Humanoide",
+      "armour": "Armadura de Escamas Tachonada de Jade (CA 14)",
+      "goodies": "Pase del Gremio, 50 po, Bomba de Humo"
+    },
+    "alchemical_spice_thrower": {
+      "name": "Lanzador de Especias Alquímicas",
+      "type": "Humanoide",
+      "armour": "Cuero Reforzado (CA 13)",
+      "goodies": "3x Poción de Especia Cegadora, 40 po"
+    },
+    "spice_lord_zhao_the_golden": {
+      "name": "Señor de la Especia Zhao el Dorado",
+      "type": "Mente Maestra Humanoide",
+      "armour": "Cota de Escamas de Seda de Dragón Imperial (CA 17)",
+      "goodies": "Sello Imperial de Comercio, 400 po, Espada del Dragón Dorado"
+    }
+  },
+  "unlocks": {
+    "steampunk_boss_unlock": "Desbloquea el acceso a los Muelles del Aerostato Soberano y revela el plano para estabilizar la red de éter regional.",
+    "post_apocalyptic_boss_unlock": "Restaura el flujo de agua limpia en el páramo y desbloquea el búnker subterráneo sellado antes del colapso.",
+    "sunless_ocean_boss_unlock": "Calma las furiosas mareas abisales y revela las coordenadas sumergidas de la Isla Hundida de los Reyes.",
+    "floating_isles_boss_unlock": "Estabiliza la altitud de flotación de los archipiélagos y abre el portal antiguo hacia los Cielos Celestiales.",
+    "sun_desert_boss_unlock": "Pone fin a la sequía eterna invocando lluvias primigenias y desbloquea la Biblioteca Perdida del Sol.",
+    "solarpunk_boss_unlock": "Limpia la plaga de hongos que afecta a la canopia y desbloquea los legendarios Jardines Flotantes del Sol.",
+    "pactlands_boss_unlock": "Sella las rifts demoníacas oscuras en todo el reino y otorga al grupo el paso hacia el Reino Infernal.",
+    "vampire_courts_boss_unlock": "Abole el impuesto de sangre aristocrático y otorga el control absoluto sobre el Castillo Sanguíneo y sus bóvedas.",
+    "silk_route_boss_unlock": "Desbloquea la Cédula Mercantil Exclusiva de la Ruta de la Seda, otorgando concesiones comerciales ilimitadas en todos los imperios."
+  }
+}

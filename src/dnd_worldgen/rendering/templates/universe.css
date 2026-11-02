@@ -1,0 +1,212 @@
+/* Originally extracted from the first, single-file version of the
+   generator (see the git history). Hand-maintained now. */
+
+/* Page scale: how the shared rules in base.css are sized here */
+body {
+    font-size: 10.5pt;
+}
+
+.header {
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 13pt;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 22pt;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.header .subtitle {
+    font-size: 11pt;
+    font-style: italic;
+    color: #555;
+    margin-top: 4px;
+}
+
+.grid-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.box {
+    width: 48%;
+    background: var(--paper);
+    border: 1px solid var(--paper-border);
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.box h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: var(--accent);
+    font-size: 11pt;
+    border-bottom: 1px solid #e0dcd3;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.box ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.box li {
+    margin-bottom: 4px;
+}
+
+.story-box {
+    background: var(--paper);
+    border-left: 3px solid var(--accent);
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    font-size: 10pt;
+    text-align: justify;
+    border-radius: 0 4px 4px 0;
+}
+
+.encounter-card {
+    background: #faf8f5;
+    border: 1px solid #d0c8b8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+
+.stage-low {
+    border-left: 4px solid #2e7d32;
+}
+
+.stage-mid {
+    border-left: 4px solid #d84315;
+}
+
+.stage-boss {
+    border-left: 4px solid var(--accent);
+    background: #fdf6f6;
+}
+
+.encounter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.stage-badge {
+    font-size: 8.5pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.badge-low {
+    background: #2e7d32;
+}
+
+.badge-mid {
+    background: #d84315;
+}
+
+.badge-boss {
+    background: var(--accent);
+}
+
+.location-title {
+    font-size: 9.5pt;
+    color: #333;
+}
+
+.encounter-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8.5pt;
+    margin-top: 4px;
+}
+
+.encounter-table th {
+    background: #eae5dc;
+    color: #444;
+    text-align: left;
+    padding: 4px 6px;
+    border: 1px solid #d0c8b8;
+    font-size: 8pt;
+    text-transform: uppercase;
+}
+
+.encounter-table td {
+    padding: 4px 6px;
+    border: 1px solid #e2dcce;
+    vertical-align: top;
+}
+
+.boss-name {
+    color: var(--accent);
+}
+
+.boss-unlock {
+    margin-top: 6px;
+    font-size: 8.5pt;
+    color: #4a148c;
+    background: #f3e5f5;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #e1bee7;
+}
+
+.party-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.party-card {
+    width: 48%;
+    background: var(--paper);
+    border: 1px solid var(--paper-border);
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.party-name {
+    font-weight: bold;
+    font-size: 11pt;
+    color: var(--accent);
+}
+
+.party-sub {
+    font-size: 9pt;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 4px;
+}
+
+.party-meta {
+    font-size: 8.5pt;
+    color: #666;
+}
+
+.party-hook {
+    font-size: 8.5pt;
+    font-style: italic;
+    margin-top: 4px;
+    color: #333;
+    border-top: 1px dashed #e0dcd3;
+    padding-top: 4px;
+}

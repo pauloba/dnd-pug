@@ -1,0 +1,34 @@
+{
+  "acolyte": {
+    "name": "Acólito",
+    "description": "Dedicó años al servicio en un templo, actuando como intermediario entre la vida mortal y lo divino."
+  },
+  "criminal": {
+    "name": "Criminal",
+    "description": "Un delincuente experimentado con un amplio historial de tratos ilícitos y contactos en el inframundo."
+  },
+  "folk_hero": {
+    "name": "Héroe del Pueblo",
+    "description": "Un campeón de las clases humildes cuya valentía se alza frente a la opresión y el peligro."
+  },
+  "noble": {
+    "name": "Noble",
+    "description": "Nacido en la riqueza y el privilegio, acostumbrado al poder, la influencia y las altas expectativas sociales."
+  },
+  "sage": {
+    "name": "Sabio",
+    "description": "Un erudito dedicado que pasó años acumulando sabiduría, investigaciones y textos antiguos."
+  },
+  "soldier": {
+    "name": "Soldado",
+    "description": "Entrenado en la guerra táctica, la disciplina militar y la dura vida del combate en el campo de batalla."
+  },
+  "urchin": {
+    "name": "Gamberro",
+    "description": "Creció en la pobreza y la calle, dependiendo de su astucia e instintos urbanos para sobrevivir."
+  },
+  "outlander": {
+    "name": "Forastero",
+    "description": "Criado en tierras salvajes lejos de la civilización, experto en rastreo, naturaleza y supervivencia."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "armor": {
+    "chain_mail": "Cota de malla",
+    "robes": "Sin armadura (Túnicas)",
+    "leather_armor": "Armadura de cuero",
+    "scale_mail_and_shield": "Cota de escamas y escudo",
+    "studded_leather_armor": "Cuero tachonado",
+    "chain_mail_and_shield": "Cota de malla y escudo",
+    "hide_armor_and_shield": "Armadura de pieles y escudo"
+  },
+  "main_attacks": {
+    "fighter": "Espada larga (+5 para impactar, 1d8+3 cortante)",
+    "wizard": "Descarga de fuego (+5 para impactar, 1d10 fuego) o Bastón (+2 para impactar, 1d6 contundente)",
+    "rogue": "Ropera (+5 para impactar, 1d8+3 perforante, Ataque furtivo +1d6)",
+    "cleric": "Maza (+4 para impactar, 1d6+2 contundente) o Llama sagrada (CD 13 Dex, 1d8 radiante)",
+    "ranger": "Arco largo (+5 para impactar, 1d8+3 perforante) o Espadas cortas (+5 para impactar, 1d6+3 cortante)",
+    "paladin": "Mandoble (+5 para impactar, 2d6+3 cortante) o Castigo divino",
+    "bard": "Ropera (+4 para impactar, 1d8+2 perforante) o Burla dañina (CD 13 Sab, 1d4 psíquico)",
+    "druid": "Producir llama (+4 para impactar, 1d8 fuego) o Cimitarra (+3 para impactar, 1d6+1 cortante)",
+    "warlock": "Descarga mística (+5 para impactar, 1d10 daño de fuerza)"
+  },
+  "background_equipment": {
+    "acolyte": "Libro de oraciones, 5 varillas de incienso, vestiduras, ropa común, bolsa con 15 GP.",
+    "criminal": "Palanca, juego de ropas oscuras comunes con capucha, bolsa de cinturón, 15 GP.",
+    "folk_hero": "Juego de herramientas de artesano, pala, olla de hierro, ropa común, bolsa con 10 GP.",
+    "noble": "Juego de ropas finas, anillo de sello, pergamino de linaje, monedero con 25 GP.",
+    "sage": "Frasco de tinta, pluma, cuchillo pequeño, carta de un colega difunto, ropa común, bolsa con 10 GP.",
+    "soldier": "Insignia de rango, trofeo de un enemigo caído, juego de dados de hueso, ropa común, bolsa con 10 GP.",
+    "urchin": "Cuchillo pequeño, mapa de su ciudad natal, ratón mascota, recuerdo familiar, ropa común, 10 GP.",
+    "outlander": "Bastón, trampa de caza, trofeo de un animal cazado, ropa de viajero, bolsa con 10 GP."
+  },
+  "starting_equipment": "[Equipo de {class_name}] Mochila, saco de dormir, kit de cocina, yesca y pedernal, 10 antorchas, 10 días de raciones, cantimplora. [{background_name}] {background_equipment}",
+  "spells": {
+    "fighter": "Superioridad marcial y Segundo aliento ({subclass}). Sin conjuros nativos salvo Caballero Arcano (Trucos: Salvaguarda, Descarga de fuego).",
+    "wizard": "Libro de conjuros (Trucos: Descarga de fuego, Luz, Mano de mago; Nivel 1: Proyectil mágico, Escudo, Sueño). Subclase ({subclass}).",
+    "rogue": "Ataque furtivo y Acción astuta ({subclass}). Sin conjuros nativos salvo Embaucador Arcano (Trucos: Mano de mago, Ilusión menor).",
+    "cleric": "Lanzamiento de conjuros divinos (Trucos: Llama sagrada, Taumaturgia, Guía; Nivel 1: Curar heridas, Bendición, Saeta guiada). Dominio ({subclass}).",
+    "ranger": "La magia de la naturaleza se desbloquea en nivel 2. Enfoque especial ({subclass}). Rasgo racial ({race}): Adaptabilidad natural.",
+    "paladin": "Castigo divino y Imposición de manos. Juramento ({subclass}). Rasgo racial ({race}): Resiliencia bendita.",
+    "bard": "Lanzamiento de conjuros (Trucos: Burla dañina, Prestidigitación; Nivel 1: Palabra de curación, Susurros disonantes, Onda de trueno). Colegio ({subclass}).",
+    "druid": "Magia druídica y Forma salvaje (Trucos: Artimaña druídica, Producir llama; Nivel 1: Entrañar, Curar heridas). Círculo ({subclass}).",
+    "warlock": "Magia de pacto (Trucos: Descarga mística, Ilusión menor; Nivel 1: Reprensión infernal, Manto de espinas/Hex). Patrón ({subclass})."
+  }
+}

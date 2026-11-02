@@ -1,0 +1,20 @@
+{
+  "athletics": "Atletismo",
+  "acrobatics": "Acrobacias",
+  "sleight_of_hand": "Juego de Manos",
+  "stealth": "Sigilo",
+  "arcana": "Arcano",
+  "history": "Historia",
+  "investigation": "Investigación",
+  "nature": "Naturaleza",
+  "religion": "Religión",
+  "animal_handling": "Trato con Animales",
+  "insight": "Perspicacia",
+  "medicine": "Medicina",
+  "perception": "Percepción",
+  "survival": "Supervivencia",
+  "deception": "Engaño",
+  "intimidation": "Intimidación",
+  "performance": "Interpretación",
+  "persuasion": "Persuasión"
+}

@@ -1,0 +1,38 @@
+{
+  "lawful_good": {
+    "name": "Legal Bueno",
+    "description": "Combina honor y compasión, actuando conforme a las normas e integridad moral para proteger a los demás."
+  },
+  "neutral_good": {
+    "name": "Neutral Bueno",
+    "description": "Guiado por su conciencia para hacer lo correcto, ayudando al prójimo sin importar leyes o autoridad."
+  },
+  "chaotic_good": {
+    "name": "Caótico Bueno",
+    "description": "Sigue su brújula moral hacia la libertad y la bondad, rebelándose activamente contra la tiranía."
+  },
+  "lawful_neutral": {
+    "name": "Legal Neutral",
+    "description": "Actúa guiado por la ley, el orden o un código personal estricto sin inclinarse hacia el bien o el mal."
+  },
+  "true_neutral": {
+    "name": "Neutral Puro",
+    "description": "Prefiere el equilibrio moral y evita comprometerse ciegamente con ideologías extremas."
+  },
+  "chaotic_neutral": {
+    "name": "Caótico Neutral",
+    "description": "Valora su libertad personal por encima de todo, siguiendo impulsos sin malicia ni altruismo."
+  },
+  "lawful_evil": {
+    "name": "Legal Malvado",
+    "description": "Usa metódicamente el orden, las leyes o la autoridad para manipular el sistema en su propio beneficio."
+  },
+  "neutral_evil": {
+    "name": "Neutral Malvado",
+    "description": "Puramente egoísta, hace lo necesario para obtener poder sin importar el honor o el caos innecesario."
+  },
+  "chaotic_evil": {
+    "name": "Caótico Malvado",
+    "description": "Motivado por impulsos destructivos y deseos egoístas, sin respeto por la vida, las normas o el orden."
+  }
+}

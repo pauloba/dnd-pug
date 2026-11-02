@@ -1,0 +1,44 @@
+{
+  "armor": {
+    "chain_mail": "Chain Mail",
+    "robes": "No Armor (Robes)",
+    "leather_armor": "Leather Armor",
+    "scale_mail_and_shield": "Scale Mail & Shield",
+    "studded_leather_armor": "Studded Leather Armor",
+    "chain_mail_and_shield": "Chain Mail & Shield",
+    "hide_armor_and_shield": "Hide Armor & Shield"
+  },
+  "main_attacks": {
+    "fighter": "Longsword (+5 to hit, 1d8+3 slashing)",
+    "wizard": "Fire Bolt (+5 to hit, 1d10 fire damage) or Quarterstaff (+2 to hit, 1d6 bludgeoning)",
+    "rogue": "Rapier (+5 to hit, 1d8+3 piercing, Sneak Attack +1d6)",
+    "cleric": "Mace (+4 to hit, 1d6+2 bludgeoning) or Sacred Flame (DC 13 Dex, 1d8 radiant)",
+    "ranger": "Longbow (+5 to hit, 1d8+3 piercing) or Shortswords (+5 to hit, 1d6+3 slashing)",
+    "paladin": "Greatsword (+5 to hit, 2d6+3 slashing) or Divine Smite",
+    "bard": "Rapier (+4 to hit, 1d8+2 piercing) or Vicious Mockery (DC 13 Wis, 1d4 psychic)",
+    "druid": "Produce Flame (+4 to hit, 1d8 fire) or Scimitar (+3 to hit, 1d6+1 slashing)",
+    "warlock": "Eldritch Blast (+5 to hit, 1d10 force damage)"
+  },
+  "background_equipment": {
+    "acolyte": "Prayer book, 5 sticks of incense, vestments, set of common clothes, 15 gp.",
+    "criminal": "Crowbar, set of dark common clothes with hood, belt pouch, 15 gp.",
+    "folk_hero": "Set of artisan's tools, shovel, iron pot, set of common clothes, belt pouch, 10 gp.",
+    "noble": "Set of fine clothes, signet ring, scroll of pedigree, purse containing 25 gp.",
+    "sage": "Ink bottle, quill, small knife, letter from a dead colleague, common clothes, pouch with 10 gp.",
+    "soldier": "Insignia of rank, trophy from a fallen enemy, set of bone dice, common clothes, belt pouch, 10 gp.",
+    "urchin": "Small knife, map of hometown, pet mouse, token from parents, common clothes, belt pouch, 10 gp.",
+    "outlander": "Staff, hunting trap, trophy from an animal, set of traveler's clothes, belt pouch, 10 gp."
+  },
+  "starting_equipment": "[{class_name} Gear] Backpack, bedroll, mess kit, tinderbox, 10 torches, 10 days of rations, waterskin. [{background_name}] {background_equipment}",
+  "spells": {
+    "wizard": "Spellbook (Cantrips: Fire Bolt, Light, Mage Hand; 1st Level: Magic Missile, Shield, Sleep). Subclass ({subclass}): Feature unlocked.",
+    "cleric": "Divine Spellcasting (Cantrips: Sacred Flame, Thaumaturgy, Guidance; 1st Level: Cure Wounds, Bless, Guiding Bolt). Domain ({subclass}).",
+    "warlock": "Pact Magic (Cantrips: Eldritch Blast, Minor Illusion; 1st Level: Hellish Rebuke, Hex). Patron ({subclass}).",
+    "bard": "Spellcasting (Cantrips: Vicious Mockery, Prestidigitation; 1st Level: Healing Word, Dissonant Whispers, Thunderwave). College ({subclass}).",
+    "druid": "Druidic Magic & Wild Shape (Cantrips: Druidcraft, Produce Flame; 1st Level: Entangle, Cure Wounds). Circle ({subclass}).",
+    "ranger": "Wilderness magic unlocks at Level 2. Specialized Focus ({subclass}). Racial Trait ({race}): Natural adaptability.",
+    "paladin": "Divine Smite & Lay on Hands (Aura of Protection). Oath ({subclass}). Racial Trait ({race}): Blessed resilience.",
+    "fighter": "Martial Superiority & Second Wind ({subclass}). No innate spellcasting unless Eldritch Knight (Cantrips: Blade Ward, Fire Bolt).",
+    "rogue": "Sneak Attack & Cunning Action ({subclass}). No innate spellcasting unless Arcane Trickster (Cantrips: Mage Hand, Minor Illusion)."
+  }
+}

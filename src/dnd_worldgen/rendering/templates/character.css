@@ -1,0 +1,193 @@
+/* Originally extracted from the first, single-file version of the
+   generator (see the git history). Hand-maintained now. */
+
+/* Page scale: how the shared rules in base.css are sized here */
+body {
+    font-size: 10pt;
+}
+
+.header {
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+.section-title {
+    font-size: 11pt;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    padding-bottom: 2px;
+}
+
+.char-name {
+    font-size: 16pt;
+    font-weight: bold;
+    color: #111;
+    margin-top: 4px;
+}
+
+.profile-grid {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--paper);
+    border: 1px solid var(--paper-border);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.profile-item {
+    width: 33.33%;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+}
+
+.profile-item label {
+    font-weight: bold;
+    font-size: 8.5pt;
+    color: var(--accent);
+    text-transform: uppercase;
+    display: block;
+}
+
+.profile-item span {
+    font-size: 10pt;
+    color: #222;
+}
+
+.desc-box {
+    background: var(--paper);
+    border: 1px solid var(--paper-border);
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 9.5pt;
+}
+
+.desc-box p {
+    margin: 0 0 4px 0;
+}
+
+.desc-box p:last-child {
+    margin-bottom: 0;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.stat-box {
+    width: 15%;
+    background: var(--paper);
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px 2px;
+    box-sizing: border-box;
+}
+
+.stat-label {
+    font-size: 7.5pt;
+    font-weight: bold;
+    color: var(--accent);
+    text-transform: uppercase;
+}
+
+.stat-score {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #111;
+    margin: 2px 0;
+}
+
+.stat-mod {
+    font-size: 10pt;
+    font-weight: bold;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 1px 6px;
+}
+
+.skill-list {
+    font-size: 6.5pt;
+    color: #555;
+    margin-top: 4px;
+    border-top: 1px dashed #ccc;
+    padding-top: 2px;
+}
+
+.combat-squares {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.combat-square {
+    width: 23%;
+    background: var(--paper);
+    border: 1.5px solid var(--accent);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 4px;
+    box-sizing: border-box;
+}
+
+.combat-square-label {
+    font-size: 8pt;
+    font-weight: bold;
+    color: var(--accent);
+    text-transform: uppercase;
+}
+
+.combat-square-value {
+    font-size: 15pt;
+    font-weight: bold;
+    color: #111;
+    margin-top: 4px;
+}
+
+.combat-text-lines {
+    background: var(--paper);
+    border: 1px solid var(--paper-border);
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    font-size: 9.5pt;
+}
+
+.combat-text-line {
+    margin-bottom: 4px;
+}
+
+.combat-text-line:last-child {
+    margin-bottom: 0;
+}
+
+.inventory-magic-box {
+    background: var(--paper);
+    border: 1px solid var(--paper-border);
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    font-size: 9.5pt;
+}
+
+.inv-item {
+    margin-bottom: 6px;
+}
+
+.inv-item:last-child {
+    margin-bottom: 0;
+}
+
+.hook-box {
+    background: var(--paper);
+    border-left: 3px solid var(--accent);
+    padding: 8px 10px;
+    font-style: italic;
+    font-size: 9.5pt;
+    border-radius: 0 4px 4px 0;
+}

@@ -1,0 +1,27 @@
+{
+  "types": {
+    "guild": "Guild",
+    "cult": "Cult",
+    "empire": "Empire",
+    "rebel_syndicate": "Rebel Syndicate",
+    "circle_of_druids": "Circle of Druids",
+    "eco_engineers_alliance": "Eco-Engineers Alliance"
+  },
+  "first_adjectives": {
+    "iron": "Iron",
+    "golden": "Golden",
+    "shadowed": "Shadowed",
+    "arcane": "Arcane",
+    "celestial": "Celestial",
+    "verdant": "Verdant"
+  },
+  "second_adjectives": {
+    "crimson": "Crimson",
+    "silent": "Silent",
+    "boundless": "Boundless",
+    "verdant": "Verdant",
+    "ebon": "Ebon",
+    "solar": "Solar"
+  },
+  "name_pattern": "The {first_adjective} {second_adjective} {type}"
+}

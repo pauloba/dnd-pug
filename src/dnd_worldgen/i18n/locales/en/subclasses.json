@@ -1,0 +1,110 @@
+{
+  "champion": {
+    "name": "Champion",
+    "description": "Focuses on raw physical power, refining attacks to deal devastating critical strikes."
+  },
+  "battle_master": {
+    "name": "Battle Master",
+    "description": "Employs tactical maneuvers and precision superiority dice to command the battlefield."
+  },
+  "eldritch_knight": {
+    "name": "Eldritch Knight",
+    "description": "Combines martial prowess with abjuration and evocation magic for versatility."
+  },
+  "school_of_evocation": {
+    "name": "School of Evocation",
+    "description": "Master of elemental forces, shaping powerful destructive spells around allies."
+  },
+  "school_of_abjuration": {
+    "name": "School of Abjuration",
+    "description": "Specializes in protective wards, counterspells, and defensive magic."
+  },
+  "school_of_divination": {
+    "name": "School of Divination",
+    "description": "Glimpses into the future to alter fate, foreseeing outcomes before they happen."
+  },
+  "thief": {
+    "name": "Thief",
+    "description": "Enhances agility and stealth, expertly picking locks and using items in the heat of action."
+  },
+  "assassin": {
+    "name": "Assassin",
+    "description": "Master of surprise attacks, disguise, and deadly poisons delivered from the shadows."
+  },
+  "arcane_trickster": {
+    "name": "Arcane Trickster",
+    "description": "Enhances rogue stealth with illusion and enchantment spells to deceive foes."
+  },
+  "life_domain": {
+    "name": "Life Domain",
+    "description": "Channeler of divine energy focused on restoring health and preserving life."
+  },
+  "light_domain": {
+    "name": "Light Domain",
+    "description": "Wields divine fire and radiant blinding light to scorch dark monstrosities."
+  },
+  "war_domain": {
+    "name": "War Domain",
+    "description": "A holy warrior champion inspiring martial excellence and guided strikes."
+  },
+  "hunter": {
+    "name": "Hunter",
+    "description": "Specialized in combating hordes or giant beasts through specialized combat tactics."
+  },
+  "beast_master": {
+    "name": "Beast Master",
+    "description": "Forms a deep bond with a loyal wild beast companion who fights by their side."
+  },
+  "gloom_stalker": {
+    "name": "Gloom Stalker",
+    "description": "A dark wilderness ambusher at home in deep shadows and underdark caverns."
+  },
+  "oath_of_devotion": {
+    "name": "Oath of Devotion",
+    "description": "Embodies the ideal of the knight in shining armor, bound by honor and justice."
+  },
+  "oath_of_the_ancients": {
+    "name": "Oath of the Ancients",
+    "description": "Fights for light and nature, preserving life, beauty, and ancient growth."
+  },
+  "oath_of_vengeance": {
+    "name": "Oath of Vengeance",
+    "description": "A ruthless punisher who hunts down transgressors and exacts retribution."
+  },
+  "college_of_lore": {
+    "name": "College of Lore",
+    "description": "Gathers knowledge and secrets from all fields, weaving cutting words and extra spells."
+  },
+  "college_of_valor": {
+    "name": "College of Valor",
+    "description": "Sings epic sagas to inspire allies in martial combat while wielding heavy armor."
+  },
+  "college_of_glamour": {
+    "name": "College of Glamour",
+    "description": "Channels fey magic to enthrall audiences and command respect with mesmerizing grace."
+  },
+  "circle_of_the_land": {
+    "name": "Circle of the Land",
+    "description": "Preserves ancient nature lore and draws power directly from specific wilderness terrains."
+  },
+  "circle_of_the_moon": {
+    "name": "Circle of the Moon",
+    "description": "Master of wild shapes, transforming into powerful elemental beasts in combat."
+  },
+  "circle_of_stars": {
+    "name": "Circle of Stars",
+    "description": "Harnesses celestial constellations to channel radiant light and cosmic fates."
+  },
+  "the_fiend": {
+    "name": "The Fiend",
+    "description": "Bound to a lower-planar demon or devil, gaining fire magic and dark vitality."
+  },
+  "the_great_old_one": {
+    "name": "The Great Old One",
+    "description": "Gains eldritch mind-bending powers from alien entities beyond the stars."
+  },
+  "the_archfey": {
+    "name": "The Archfey",
+    "description": "Wields whimsical and deceptive fey magic to charm, frighten, and teleport."
+  }
+}

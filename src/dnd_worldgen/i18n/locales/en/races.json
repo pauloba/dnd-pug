@@ -1,0 +1,34 @@
+{
+  "human": {
+    "name": "Human",
+    "description": "Versatile and ambitious, humans are adaptable survivors who thrive in almost any environment."
+  },
+  "elf": {
+    "name": "Elf",
+    "description": "Magical, long-lived beings with a deep connection to nature, grace, and ancient wisdom."
+  },
+  "dwarf": {
+    "name": "Dwarf",
+    "description": "Bold, hardy, and resilient warriors and crafters shaped by deep mountain halls."
+  },
+  "halfling": {
+    "name": "Halfling",
+    "description": "Small and cheerful folk whose surprising luck and stealth often outshine their modest size."
+  },
+  "tiefling": {
+    "name": "Tiefling",
+    "description": "Carrying an infernal heritage, tieflings navigate the world with fiery resolve and charisma."
+  },
+  "dragonborn": {
+    "name": "Dragonborn",
+    "description": "Proud dragon-descendants who honor heritage, honor, and raw elemental breath."
+  },
+  "gnome": {
+    "name": "Gnome",
+    "description": "Energetic and intensely curious inventors and tricksters driven by enthusiastic passion."
+  },
+  "half_orc": {
+    "name": "Half-Orc",
+    "description": "Fierce combatants possessing unstoppable tenacity, physical power, and iron endurance."
+  }
+}

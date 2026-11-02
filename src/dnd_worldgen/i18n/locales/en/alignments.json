@@ -1,0 +1,38 @@
+{
+  "lawful_good": {
+    "name": "Lawful Good",
+    "description": "Combines honor and compassion, acting with tradition and moral integrity to protect others."
+  },
+  "neutral_good": {
+    "name": "Neutral Good",
+    "description": "Guided by conscience to do the right thing, helping others regardless of rules or authority."
+  },
+  "chaotic_good": {
+    "name": "Chaotic Good",
+    "description": "Follows a personal moral compass toward freedom and kindness, rebelling against tyranny."
+  },
+  "lawful_neutral": {
+    "name": "Lawful Neutral",
+    "description": "Acts according to law, order, custom, or personal codes without bias toward good or evil."
+  },
+  "true_neutral": {
+    "name": "True Neutral",
+    "description": "Prefers balance over dogma, avoiding strong commitments to law, chaos, good, or evil."
+  },
+  "chaotic_neutral": {
+    "name": "Chaotic Neutral",
+    "description": "Values absolute personal freedom above all else, following whim without malice or altruism."
+  },
+  "lawful_evil": {
+    "name": "Lawful Evil",
+    "description": "Methodically uses laws, order, or authority to manipulate systems and advance selfish goals."
+  },
+  "neutral_evil": {
+    "name": "Neutral Evil",
+    "description": "Purely self-serving, doing whatever it takes to gain power without honor or senseless mayhem."
+  },
+  "chaotic_evil": {
+    "name": "Chaotic Evil",
+    "description": "Driven by wild desires and destruction, showing total disregard for order, life, or rules."
+  }
+}

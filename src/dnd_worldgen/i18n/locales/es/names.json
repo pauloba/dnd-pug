@@ -1,0 +1,74 @@
+{
+  "steampunk": [
+    "Gedeón Sterling",
+    "Vera Ensamble",
+    "Silas Vane",
+    "Ada Finch",
+    "Barón Osvaldo",
+    "Clara Cobre"
+  ],
+  "post_apocalyptic": [
+    "Kael Ruina",
+    "Tuétano",
+    "Lyra Polvo",
+    "Jax Ascua",
+    "Cuervo Chatarra",
+    "Espina Vacío"
+  ],
+  "sunless_ocean": [
+    "Capitán Vane",
+    "Corvus Oscuro",
+    "Morwenna Negra",
+    "Bartolomé Marea",
+    "Isolda Profunda",
+    "Caspio Salmuera"
+  ],
+  "floating_isles": [
+    "Céfiro Vance",
+    "Aria Galerna",
+    "Espina Danzacielos",
+    "Skye Tormenta",
+    "Caelum Ala",
+    "Lyra Estrato"
+  ],
+  "sun_desert": [
+    "Tariq Caminasol",
+    "Zahra Limo",
+    "Caronte Arena",
+    "Samira Sol",
+    "Malik Espejismo",
+    "Azra Duna"
+  ],
+  "solarpunk": [
+    "Céfiro Helios",
+    "Flora Cristal",
+    "Salomón Hoja",
+    "Iiris Rayo",
+    "Kaelen Biomage",
+    "Aria Fotónica"
+  ],
+  "pactlands": [
+    "Morrigan Hex",
+    "Malakor Llama",
+    "Agatha Espino",
+    "Baltazar Vacío",
+    "Circe Bosquenegro",
+    "Salem Noche"
+  ],
+  "vampire_courts": [
+    "Lord Vladislaus",
+    "Lady Carmilla",
+    "Conde Dragos",
+    "Baronesa Elizabeth",
+    "Lucius Sanguis",
+    "Seraphina Carmesí"
+  ],
+  "silk_route": [
+    "Zhao Tejedor de Seda",
+    "Mei-Ling Jade",
+    "Kaelen Señor de la Especia",
+    "Li Wei Oro",
+    "Soren Loto",
+    "Chen Esmeralda"
+  ]
+}

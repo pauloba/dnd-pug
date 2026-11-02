@@ -1,0 +1,81 @@
+{% extends "base.html.j2" %}
+
+{#- One encounter stage. The boss differs only in the enemy-name class and the unlock box. #}
+{% macro encounter_card(encounter, labels) %}
+<div class="encounter-card stage-{{ encounter.stage }}">
+    <div class="encounter-header">
+        <span class="stage-badge badge-{{ encounter.stage }}">{{ encounter.label }}</span>
+        <span class="location-title"><b>{{ labels['location'] }}:</b> {{ encounter.location }}</span>
+    </div>
+    <table class="encounter-table">
+        <tr>
+            <th>{{ labels['enemies'] }}</th>
+            <th>{{ labels['armour'] }}</th>
+            <th>{{ labels['goodies'] }}</th>
+        </tr>
+        {% for enemy in encounter.enemies %}
+        <tr>
+            <td><b{% if encounter.stage == 'boss' %} class="boss-name"{% endif %}>{{ enemy.name }}</b> ({{ enemy.type }})</td>
+            <td>{{ enemy.armour }}</td>
+            <td>{{ enemy.goodies }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% if encounter.unlock %}
+    <div class="boss-unlock">
+        <b>{{ labels['unlocks'] }}:</b> {{ encounter.unlock }}
+    </div>
+    {% endif %}
+</div>
+{% endmacro %}
+
+{% block title %}{{ labels['game_universe'] }}{% endblock %}
+
+{% block body %}
+<div class="header">
+    <h1>{{ labels['game_universe'] }}</h1>
+    <div class="subtitle">{{ labels['theme'] }}: <b>{{ universe.theme }}</b> | {{ labels['universe_id'] }}: <b>{{ universe.universe_id }}</b></div>
+</div>
+
+<div class="grid-2">
+    <div class="box">
+        <h3>{{ labels['dominant_factions'] }}</h3>
+        <ul>
+            {% for faction in universe.factions %}
+            <li><b>{{ faction }}</b></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="box">
+        <h3>{{ labels['major_settlements'] }}</h3>
+        <ul>
+            {% for settlement in universe.settlements %}
+            <li><b>{{ settlement }}</b></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="section-title">{{ labels['global_conflict'] }}</div>
+<div class="story-box">
+    {{ universe.conflict }}
+</div>
+
+<div class="section-title">{{ labels['encounters_title'] }}</div>
+{% for encounter in universe.encounters %}
+{{ encounter_card(encounter, labels) }}
+{% endfor %}
+
+<div class="section-title">{{ labels['party_members'] }}</div>
+<div class="party-grid">
+    {% for member in universe.party %}
+    <div class="party-card">
+        <div class="party-name">{{ member.name }}</div>
+        <div class="party-sub">{{ member.race }} {{ member.class_name }} ({{ member.subclass }}) | {{ labels['level'] }} {{ member.level }}</div>
+        <div class="party-meta"><b>{{ labels['background'] }}:</b> {{ member.background }} | <b>{{ labels['faction'] }}:</b> {{ member.faction }}</div>
+        <div class="party-meta"><b>{{ labels['alignment'] }}:</b> {{ member.alignment }}</div>
+        <div class="party-hook">"{{ member.hook }}"</div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

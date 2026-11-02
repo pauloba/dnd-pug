@@ -1,0 +1,27 @@
+{
+  "types": {
+    "guild": "Gremio",
+    "cult": "Culto",
+    "empire": "Imperio",
+    "rebel_syndicate": "Sindicato Rebelde",
+    "circle_of_druids": "Círculo Druídico",
+    "eco_engineers_alliance": "Alianza de Eco-Ingenieros"
+  },
+  "first_adjectives": {
+    "iron": "de Hierro",
+    "golden": "Dorado",
+    "shadowed": "Sombreado",
+    "arcane": "Arcano",
+    "celestial": "Celestial",
+    "verdant": "Frondoso"
+  },
+  "second_adjectives": {
+    "crimson": "Carmesí",
+    "silent": "Silencioso",
+    "boundless": "Sin Límites",
+    "verdant": "Verdoso",
+    "ebon": "Ébano",
+    "solar": "Solar"
+  },
+  "name_pattern": "{type} {first_adjective} {second_adjective}"
+}

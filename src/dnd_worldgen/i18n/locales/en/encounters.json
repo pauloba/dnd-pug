@@ -1,0 +1,314 @@
+{
+  "locations": {
+    "abandoned_gear_sluice_substation": "Abandoned Gear-Sluice Substation",
+    "pneumatic_freight_station_alpha": "Pneumatic Freight Station Alpha",
+    "the_grand_over_boiler_citadel": "The Grand Over-Boiler Citadel",
+    "irradiated_ruins_outpost": "Irradiated Ruins Outpost",
+    "collapsed_mana_reactor_trench": "Collapsed Mana Reactor Trench",
+    "the_scorched_void_vault": "The Scorched Void Vault",
+    "rotting_barnacle_wharf": "Rotting Barnacle Wharf",
+    "submerged_cathedral_reef": "Submerged Cathedral Reef",
+    "the_sunless_trench_sanctum": "The Sunless Trench Sanctum",
+    "perilous_wind_bridge_outpost": "Perilous Wind-Bridge Outpost",
+    "shattered_astral_dockyard": "Shattered Astral Dockyard",
+    "the_apex_gravity_core_engine": "The Apex Gravity Core Engine",
+    "sun_bleached_dune_oasis": "Sun-Bleached Dune Oasis",
+    "buried_tomb_entrance": "Buried Tomb Entrance",
+    "the_solar_pharaohs_sanctum": "The Solar Pharaoh's Sanctum",
+    "overgrown_photonic_nursery": "Overgrown Photonic Nursery",
+    "bio_glass_prism_observatory": "Bio-Glass Prism Observatory",
+    "the_heart_of_the_mother_tree": "The Heart of the Mother Tree",
+    "fog_shrouded_bramble_hollow": "Fog-Shrouded Bramble Hollow",
+    "blackthorn_ritual_circle": "Blackthorn Ritual Circle",
+    "the_blood_moon_covenstead_altar": "The Blood-Moon Covenstead Altar",
+    "cobblestone_crypt_entrance": "Cobblestone Crypt Entrance",
+    "scarlet_hold_ballroom": "Scarlet Hold Ballroom",
+    "the_grand_crimson_crypt_spire": "The Grand Crimson Crypt Spire",
+    "ambushed_spice_route_oasis": "Ambushed Spice Route Oasis",
+    "fortified_silk_warehouse": "Fortified Silk Warehouse",
+    "the_golden_lotus_pagoda_fortress": "The Golden Lotus Pagoda Fortress"
+  },
+  "enemies": {
+    "clockwork_scrapper": {
+      "name": "Clockwork Scrapper",
+      "type": "Automaton",
+      "armour": "Reinforced Brass Plating (AC 12)",
+      "goodies": "15 gp, Copper Sprocket, Minor Repair Kit"
+    },
+    "grease_monkey_enforcer": {
+      "name": "Grease-Monkey Enforcer",
+      "type": "Humanoid",
+      "armour": "Leather Apron & Padded Jacket (AC 11)",
+      "goodies": "Smokepowder Flask, Wrench, 10 gp"
+    },
+    "steam_rig_heavy_sentry": {
+      "name": "Steam-Rig Heavy Sentry",
+      "type": "Automaton",
+      "armour": "Riveted Iron Boiler Plate (AC 15)",
+      "goodies": "Ether-Infused Pressure Gauge, 45 gp, Potion of Healing"
+    },
+    "aether_tech_saboteur": {
+      "name": "Aether-Tech Saboteur",
+      "type": "Humanoid",
+      "armour": "Reinforced Flight Leathers (AC 13)",
+      "goodies": "Arc-Welding Torch, Schematic Notes, 30 gp"
+    },
+    "grand_archon_vane_the_steam_forged": {
+      "name": "Grand Archon Vane the Steam-Forged",
+      "type": "Clockwork Titan",
+      "armour": "Aether-Shielded Adamantine Armor (AC 18)",
+      "goodies": "Master Ether Regulator Key, 200 gp, Wand of Lightning Bolts"
+    },
+    "mutated_scavenger": {
+      "name": "Mutated Scavenger",
+      "type": "Mutant",
+      "armour": "Scrap-Metal Hauberk (AC 12)",
+      "goodies": "12 gp, Purified Water Flask, Bone Dagger"
+    },
+    "dust_spitter_hound": {
+      "name": "Dust-Spitter Hound",
+      "type": "Beast",
+      "armour": "Thick Calcified Hides (AC 11)",
+      "goodies": "Mutated Fang, Sharp Claws"
+    },
+    "arcane_warped_marauder": {
+      "name": "Arcane-Warped Marauder",
+      "type": "Mutant",
+      "armour": "Hardened Scrap Armor (AC 14)",
+      "goodies": "Charged Mana Core, 40 gp, Anti-Radiation Salve"
+    },
+    "void_gazer_cultist": {
+      "name": "Void-Gazer Cultist",
+      "type": "Humanoid",
+      "armour": "Rune-Carved Robes (AC 12)",
+      "goodies": "Scroll of Shatter, Void Essence, 25 gp"
+    },
+    "abomination_lord_malakor": {
+      "name": "Abomination-Lord Malakor",
+      "type": "Arcane Monstrosity",
+      "armour": "Crystalline Chitin Armor (AC 17)",
+      "goodies": "NEXUS Core Crystal, 180 gp, Staff of Fire"
+    },
+    "drowned_deckhand": {
+      "name": "Drowned Deckhand",
+      "type": "Undead",
+      "armour": "Tattered Sailor Leathers (AC 11)",
+      "goodies": "10 gp, Waterlogged Journal, Rusty Cutlass"
+    },
+    "brine_cult_initiate": {
+      "name": "Brine-Cult Initiate",
+      "type": "Humanoid",
+      "armour": "Thick Sea-Kelp Vest (AC 11)",
+      "goodies": "Black Pearl Trinket, Potion of Swimming"
+    },
+    "abyssal_deep_diver": {
+      "name": "Abyssal Deep-Diver",
+      "type": "Monstruosidad",
+      "armour": "Heavy Brass Diving Suit (AC 15)",
+      "goodies": "Depth-Pressure Valve, 50 gp, Ring of Water Breathing"
+    },
+    "siren_siren_born_spellweaver": {
+      "name": "Siren Siren-Born Spellweaver",
+      "type": "Monstruosidad",
+      "armour": "Bioluminescent Scale Armor (AC 13)",
+      "goodies": "Charming Sea Shell, 35 gp"
+    },
+    "leviathan_priestess_isolda": {
+      "name": "Leviathan Priestess Isolda",
+      "type": "Abyssal Noble",
+      "armour": "Coral-Inlaid Plate (AC 17)",
+      "goodies": "Trident of the Deep, 220 gp, Tide-Master's Orb"
+    },
+    "sky_pirate_corsair": {
+      "name": "Sky-Pirate Corsair",
+      "type": "Humanoid",
+      "armour": "Reinforced Leather Armor (AC 12)",
+      "goodies": "14 gp, Spyglass, Wind-Vane Compass"
+    },
+    "gale_wing_raptor": {
+      "name": "Gale-Wing Raptor",
+      "type": "Beast",
+      "armour": "Natural Feathered Hide (AC 11)",
+      "goodies": "Razor Quills, Feather Talisman"
+    },
+    "ether_sail_captain": {
+      "name": "Ether-Sail Captain",
+      "type": "Humanoid",
+      "armour": "Studded Sky-Leather (AC 14)",
+      "goodies": "Gale-Pistol, 55 gp, Potion of Levitation"
+    },
+    "zephyr_elemental_construct": {
+      "name": "Zephyr Elemental Construct",
+      "type": "Elemental",
+      "armour": "Swirling Mist Barrier (AC 13)",
+      "goodies": "Essence of Air, Cloud Gem"
+    },
+    "sky_lord_vance_the_stormbringer": {
+      "name": "Sky-Lord Vance the Stormbringer",
+      "type": "Humanoid",
+      "armour": "Aetherium Dragonmail (AC 18)",
+      "goodies": "Aegis Gravity Shard, 250 gp, Boots of Levitation"
+    },
+    "sand_raider_nomad": {
+      "name": "Sand-Raider Nomad",
+      "type": "Humanoid",
+      "armour": "Desert Padded Wrap (AC 11)",
+      "goodies": "12 gp, Desert Scimitar, Oasis Map"
+    },
+    "giant_dune_scorpion": {
+      "name": "Giant Dune Scorpion",
+      "type": "Beast",
+      "armour": "Chitinous Shell (AC 12)",
+      "goodies": "Venom Sac, Chitin Plate Fragment"
+    },
+    "sun_cult_zealot": {
+      "name": "Sun-Cult Zealot",
+      "type": "Humanoid",
+      "armour": "Scale Mail of the Sun (AC 14)",
+      "goodies": "Solar Medallion, 45 gp, Potion of Fire Resistance"
+    },
+    "tomb_sentinel_construct": {
+      "name": "Tomb Sentinel Construct",
+      "type": "Construct",
+      "armour": "Carved Sandstone Plate (AC 15)",
+      "goodies": "Gilded Scarab, Gem-encrusted Eye"
+    },
+    "pharaoh_kharon_the_eternal": {
+      "name": "Pharaoh Kharon the Eternal",
+      "type": "Undead Monarch",
+      "armour": "Golden Solar Plate (AC 18)",
+      "goodies": "Scepter of the Twin Suns, 300 gp, Scarab Amulet of Health"
+    },
+    "wild_flora_drone": {
+      "name": "Wild Flora-Drone",
+      "type": "Construct",
+      "armour": "Hardened Wood Shell (AC 12)",
+      "goodies": "10 gp, Bio-Luminescent Bulb, Solar Fiber"
+    },
+    "rebel_eco_poacher": {
+      "name": "Rebel Eco-Poacher",
+      "type": "Humanoid",
+      "armour": "Leaf-Mesh Suit (AC 11)",
+      "goodies": "Entangling Net, 15 gp, Herb Pouch"
+    },
+    "corrupted_photonic_weaver": {
+      "name": "Corrupted Photonic Weaver",
+      "type": "Humanoid",
+      "armour": "Prismatic Weave Armor (AC 14)",
+      "goodies": "Light-Focusing Crystal, 50 gp, Potion of Healing"
+    },
+    "chitin_vine_abomination": {
+      "name": "Chitin-Vine Abomination",
+      "type": "Plant",
+      "armour": "Thorny Bark (AC 13)",
+      "goodies": "Rare Seed Pod, Regenerative Sap"
+    },
+    "arch_biomancer_helios": {
+      "name": "Arch-Biomancer Helios",
+      "type": "Plant/Humanoid",
+      "armour": "Living Petrified Bark Mail (AC 17)",
+      "goodies": "Prism Seed of Life, 210 gp, Ring of Protection"
+    },
+    "bog_hag_acolyte": {
+      "name": "Bog Hag Acolyte",
+      "type": "Fey",
+      "armour": "Hide of Crows (AC 11)",
+      "goodies": "11 gp, Eye of Newt, Curse Talisman"
+    },
+    "imp_familiar": {
+      "name": "Imp Familiar",
+      "type": "Fiend",
+      "armour": "Infernal Skin (AC 12)",
+      "goodies": "Fiend Horn, Brimstone Vial"
+    },
+    "pact_bound_warlock": {
+      "name": "Pact-Bound Warlock",
+      "type": "Humanoid",
+      "armour": "Eldritch Robes (AC 13)",
+      "goodies": "Scroll of Hellish Rebuke, 45 gp, Bloodstone Trinket"
+    },
+    "bramble_shadow_beast": {
+      "name": "Bramble Shadow-Beast",
+      "type": "Monstrosity",
+      "armour": "Entangled Thorn Armor (AC 14)",
+      "goodies": "Thorn Heart, Shadow Essence"
+    },
+    "matriarch_morrigan_the_hex_weaver": {
+      "name": "Matriarch Morrigan the Hex-Weaver",
+      "type": "Fey/Humanoid",
+      "armour": "Shadow-Pact Cuirass (AC 17)",
+      "goodies": "Grimoire of the Primordial Pact, 240 gp, Rod of the Pact Keeper"
+    },
+    "rival_blood_thrall_guard": {
+      "name": "Rival Blood-Thrall Guard",
+      "type": "Humanoid",
+      "armour": "Padded Velvet Livery (AC 11)",
+      "goodies": "15 gp, Silver Coin, Steel Dagger"
+    },
+    "feral_vampire_bat_swarm": {
+      "name": "Feral Vampire Bat Swarm",
+      "type": "Beast",
+      "armour": "Evasive Agility (AC 12)",
+      "goodies": "Vampiric Fang, Bat Wing"
+    },
+    "rival_clan_vampire_fencer": {
+      "name": "Rival Clan Vampire Fencer",
+      "type": "Undead",
+      "armour": "Fine Studded Silk (AC 14)",
+      "goodies": "Masterwork Rapier, 60 gp, Blood-Ruby Ring"
+    },
+    "sanguine_blood_mage": {
+      "name": "Sanguine Blood-Mage",
+      "type": "Undead",
+      "armour": "Crimson Court Robes (AC 13)",
+      "goodies": "Vial of Pure Blood, Scroll of Vampiric Touch"
+    },
+    "count_vladislaus_the_blood_sovereign": {
+      "name": "Count Vladislaus the Blood Sovereign",
+      "type": "Vampire Lord",
+      "armour": "Sanguine Plate of the Night (AC 18)",
+      "goodies": "Signet Ring of the High Court, 350 gp, Cloak of the Bat"
+    },
+    "caravan_bandit": {
+      "name": "Caravan Bandit",
+      "type": "Humanoid",
+      "armour": "Light Padded Silk (AC 11)",
+      "goodies": "18 gp, Bag of Exotic Cinnamon, Scimitar"
+    },
+    "trained_attack_falcon": {
+      "name": "Trained Attack Falcon",
+      "type": "Beast",
+      "armour": "Swift Flight (AC 12)",
+      "goodies": "Feather Whistle"
+    },
+    "mercenary_guild_enforcer": {
+      "name": "Mercenary Guild Enforcer",
+      "type": "Humanoid",
+      "armour": "Jade-Studded Scale Armor (AC 14)",
+      "goodies": "Guild Pass, 50 gp, Smoke Bomb"
+    },
+    "alchemical_spice_thrower": {
+      "name": "Alchemical Spice-Thrower",
+      "type": "Humanoid",
+      "armour": "Reinforced Leather (AC 13)",
+      "goodies": "3x Potion of Blinding Spice, 40 gp"
+    },
+    "spice_lord_zhao_the_golden": {
+      "name": "Spice-Lord Zhao the Golden",
+      "type": "Humanoid Mastermind",
+      "armour": "Imperial Dragon-Silk Scale Mail (AC 17)",
+      "goodies": "Imperial Seal of Trade, 400 gp, Golden Dragon Blade"
+    }
+  },
+  "unlocks": {
+    "steampunk_boss_unlock": "Unlocks access to the Sovereign Airship Docks and reveals the blueprint to stabilize the regional ether grid.",
+    "post_apocalyptic_boss_unlock": "Restores clean water flow across the wasteland and unlocks the sealed pre-collapse underground bunker.",
+    "sunless_ocean_boss_unlock": "Calms the raging abyssal tides and unveils the submerged coordinates to the Sunken Isle of Kings.",
+    "floating_isles_boss_unlock": "Stabilizes the float-altitude of the archipelagos and opens the ancient portal to the Celestial Heavens.",
+    "sun_desert_boss_unlock": "Ends the eternal drought by summoning primeval rainfall and unlocks the lost Library of the Sun.",
+    "solarpunk_boss_unlock": "Cleanses the fungal blight affecting the canopy and unlocks the legendary Sun-Canopy Flying Gardens.",
+    "pactlands_boss_unlock": "Binds the dark fiendish rifts across the realm and grants the party passage into the Nether Realm.",
+    "vampire_courts_boss_unlock": "Abolishes the aristocratic blood tax and grants control over Castle Sanguine and its hidden vaults.",
+    "silk_route_boss_unlock": "Unlocks the exclusive Silk Route Merchant Charter, granting unlimited trade concessions across all empires."
+  }
+}

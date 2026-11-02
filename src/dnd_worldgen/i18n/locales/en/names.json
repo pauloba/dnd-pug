@@ -1,0 +1,74 @@
+{
+  "steampunk": [
+    "Gideon Sterling",
+    "Vera Gearheart",
+    "Silas Vane",
+    "Ada Finch",
+    "Baron Oswald",
+    "Clara Copper"
+  ],
+  "post_apocalyptic": [
+    "Kael Ruin",
+    "Marrow",
+    "Lyra Dust",
+    "Jax Ember",
+    "Raven Scraps",
+    "Thorne Void"
+  ],
+  "sunless_ocean": [
+    "Captain Vane",
+    "Corvus Dark",
+    "Morwenna Black",
+    "Bartholomew Tide",
+    "Isolda Deep",
+    "Caspian Brine"
+  ],
+  "floating_isles": [
+    "Zephyr Vance",
+    "Aria Gale",
+    "Thorne Skydancer",
+    "Skye Storm",
+    "Caelum Wing",
+    "Lyra Stratus"
+  ],
+  "sun_desert": [
+    "Tariq Sunstrider",
+    "Zahra Silt",
+    "Kharon Sand",
+    "Samira Sol",
+    "Malik Mirage",
+    "Azra Dune"
+  ],
+  "solarpunk": [
+    "Zephyr Helios",
+    "Flora Glass",
+    "Solomon Leaf",
+    "Iiris Ray",
+    "Kaelen Biomage",
+    "Aria Photonic"
+  ],
+  "pactlands": [
+    "Morrigan Hex",
+    "Malakor Flame",
+    "Agatha Thorn",
+    "Balthazar Void",
+    "Circe Blackwood",
+    "Salem Night"
+  ],
+  "vampire_courts": [
+    "Lord Vladislaus",
+    "Lady Carmilla",
+    "Count Dragos",
+    "Baroness Elizabeth",
+    "Lucius Sanguis",
+    "Seraphina Crimson"
+  ],
+  "silk_route": [
+    "Zhao Silk-Weaver",
+    "Mei-Ling Jade",
+    "Kaelen Spice-Lord",
+    "Li Wei Gold",
+    "Soren Lotus",
+    "Chen Emerald"
+  ]
+}

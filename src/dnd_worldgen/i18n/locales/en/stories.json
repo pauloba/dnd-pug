@@ -1,0 +1,200 @@
+{
+  "steampunk": {
+    "story_1": [
+      "For decades, the magical industrial revolution powered the brass engines of {primary_settlement}. However, a bitter ideological split between {faction_a} and {faction_b} has shattered the monopoly on purified ether supplying key settlements like {secondary_settlement}.",
+      "The crisis erupted when {faction_a} patented a transmutation engine that generates arcane steam by draining regional subterranean wells. {faction_b} deployed war-automata to sabotage the main pipelines of {primary_settlement}, claiming overpressure will cause a cataclysmic explosion.",
+      "Thick smog and discarded gears blanket the streets. As {faction_a} fortifies {primary_settlement} with pressure tanks, operatives from {faction_b} recruit saboteurs in {secondary_settlement}. The central boiler groans under immense stress, leaving the steam age's fate to brave adventurers."
+    ],
+    "story_2": [
+      "In the soot-choked skies above {primary_settlement}, armed airships of {faction_a} maintain an unyielding blockade. The sparks of rebellion were ignited by {faction_b}, halting the bronze refinery feeding {secondary_settlement}.",
+      "It all began when a self-aware automaton stole the designs for the Ignis Generator from workshops in {primary_settlement}. {faction_a} accuses {faction_b} of sheltering the runaway machine, while they claim mystical AI will render human labor worthless in {secondary_settlement}.",
+      "Amidst screeching gears and bursts of pressurized steam, bounty hunters and grease-monkeys duel in alleyways. As {faction_a} prepares a massive siege on industrial districts in {primary_settlement}, {faction_b} arms factory workers in {secondary_settlement} for revolution."
+    ],
+    "story_3": [
+      "The copper catacombs beneath {primary_settlement} conceal a newly unearthed alchemical engine. Cutthroat rivalries between {faction_a} and {faction_b} have crippled the pneumatic transit system bound for {secondary_settlement}.",
+      "Activating the device unleashed a plague of magical rust corroding bridges and machinery across {primary_settlement}. {faction_a} blames {faction_b} for intentional sabotage, while {faction_b} insists the engine is a cursed relic that will poison {secondary_settlement}'s mines.",
+      "Acid leaks from pipes as metallic smog chokes the boulevards. While {faction_a} dispatches iron legionnaires to {primary_settlement}, adventurers funded by {faction_b} seek the purifying core in {secondary_settlement} before the city crumbles."
+    ],
+    "story_4": [
+      "An astronomical discovery atop the Grand Spire of {primary_settlement} revealed an arcane quartz comet hurtling toward {secondary_settlement}. The fierce race between {faction_a} and {faction_b} threatens to spark total war.",
+      "{faction_a} deployed steam-dreadnoughts to claim the comet and monopolize its power. However, {faction_b} constructed long-range steam cannons in {primary_settlement} to blast enemy vessels before they reach {secondary_settlement}.",
+      "Golden ash and brass sparks rain upon the metropolis. As {faction_a} recruits airship pilots in {primary_settlement}, mercenaries from {faction_b} fight through pipe-jungles in {secondary_settlement} to secure the crash site."
+    ]
+  },
+  "post_apocalyptic": {
+    "story_1": [
+      "Following the Great Arcane Rupture, the wasteland surrounding {primary_settlement} was buried under toxic fallout. A desperate war for clean water and pre-collapse relics pits {faction_a} against {faction_b}, blocking vital passes to {secondary_settlement}.",
+      "The spark was ignited when an intact mana-reactor was unearthed beneath {primary_settlement}. {faction_a} aims to detonate it to wipe out wild mutations, while {faction_b} seeks to channel the mana into reviving diseased crops near {secondary_settlement}.",
+      "Violent skirmishes flare across the ruined landscape. As {faction_a} fortifies its bunkers in {primary_settlement}, {faction_b} scouts hire scrap-hunters in {secondary_settlement}. Arcane radiation builds by the hour, trapping all survivors in its wake."
+    ],
+    "story_2": [
+      "In the dust-buried ruins of {primary_settlement}, scavenger gangs worship warped magic. A brutal conflict between {faction_a} and {faction_b} destroyed the last uncorrupted wells in {secondary_settlement}.",
+      "A psionic mutant emerged from the Void Crater in {primary_settlement}, attracting cultists from afar. {faction_a} demands his execution to prevent total corruption, while {faction_b} hails him as the savior of the wasteland in {secondary_settlement}.",
+      "Twisted abominations roam collapsed highways. While {faction_a} readies flame-purifiers in {primary_settlement}, covert cells from {faction_b} raid armories in {secondary_settlement} to trigger an irreversible arcane eruption."
+    ],
+    "story_3": [
+      "A storm of wild mana has stalled over the shattered skyscrapers of {primary_settlement}. A frantic search for runic shields pits {faction_a} against {faction_b}, isolating the battered population of {secondary_settlement}.",
+      "{faction_a} began sacrificing ancient relics to raise a barrier over {primary_settlement}, leaving neighboring settlements defenseless. {faction_b} took up arms, threatening to detonate generator towers in {secondary_settlement} so all share the same fate.",
+      "Violet lightning and acid rain tear through bleak skies. As {faction_a} recruits heavy mercenaries in {primary_settlement}, guerrillas from {faction_b} sabotage magic towers in {secondary_settlement} before the storm wipes out everything."
+    ],
+    "story_4": [
+      "Beneath the ruins of {primary_settlement}'s arcana library, the Grimoire of the End was unearthed. The desperate struggle to translate it between {faction_a} and {faction_b} has paralyzed the sanctuary of {secondary_settlement}.",
+      "{faction_a} claims the text holds the formula to restore the world to its pre-cataclysm state. However, {faction_b} warns that reading the scroll will unleash the titans that ruined {secondary_settlement}.",
+      "Scrap cultists and soldiers of fortune exchange fire through concrete ruins. As {faction_a} barricades its scholars in {primary_settlement}, commandos from {faction_b} march from {secondary_settlement} to burn the book at all costs."
+    ]
+  },
+  "sunless_ocean": {
+    "story_1": [
+      "Under a sunless sky, the abyssal sea whispers dark secrets into the pitch-black docks of {primary_settlement}. Relative peace has shattered due to all-out war between {faction_a} and {faction_b} over bioluminescent lighthouses guiding ships to {secondary_settlement}.",
+      "Horror awoke when {faction_a} began harvesting blood from sunken leviathans near {primary_settlement} to fuel their lanterns. {faction_b} claims this slaughter woke a primordial beast that will swallow {secondary_settlement} unless the ritual is stopped.",
+      "Freezing mist and ink-black tides drive sailors to madness. As {faction_a} arms ironclad ships in {primary_settlement}, {faction_b} agents recruit shadowy corsairs in {secondary_settlement}. The leviathan stirs from the depths, awaiting a spark to drown the world."
+    ],
+    "story_2": [
+      "The freezing, sunless waters around {primary_settlement} have begun to lock in black ice, trapping fishing fleets. A bitter clash between {faction_a} and {faction_b} has sealed the only warm sea route to {secondary_settlement}.",
+      "A phantom shipwreck washed ashore in {primary_settlement} laden with black pearl idols. {faction_a} seeks to auction them to build icebreaker ships, but {faction_b} claims the idols are cursed relics causing the sea to freeze near {secondary_settlement}.",
+      "Foghorns and eerie sea shanties echo through darkened ports. While {faction_a} reinforces its harbor guard in {primary_settlement}, desperate sailors serving {faction_b} attempt to sink the ghost ship from {secondary_settlement} before ice buries the bay."
+    ],
+    "story_3": [
+      "An unsettling choral chant rises from the deep whirlpool near {primary_settlement}, mesmerizing coastal dwellers. The rivalry between {faction_a} and {faction_b} has paralyzed vital docks supplying {secondary_settlement}.",
+      "{faction_a} attempts to construct colossal diving bells in {primary_settlement} to descend toward the source of the voice. However, {faction_b} sabotages the shipyards, insisting that waking ancient merfolk will submerge {secondary_settlement} under an eternal tide.",
+      "Deep-sea monstrosities scale wooden piers. As {faction_a} hires armored divers in {primary_settlement}, cultist agents from {faction_b} infiltrate sanctuaries in {secondary_settlement} to seal citizens' ears with mystic wax."
+    ],
+    "story_4": [
+      "Red tides of carnivorous algae invaded the mystical waters of {primary_settlement}, killing off marine life. A resource war between {faction_a} and {faction_b} chokes the economy of {secondary_settlement}'s outer harbor.",
+      "{faction_a} discovered that the algae can be refined into revolutionary marine fuel in {primary_settlement}. {faction_b} warns that farming the algae acidifies ocean waters and poisons freshwater reservoirs in {secondary_settlement}.",
+      "Tar vapor and brimstone stench linger over the water. While {faction_a} patrols harvest fields in {primary_settlement}, guerrillas from {faction_b} launch firebrands from {secondary_settlement} to cleanse the sea with fire."
+    ]
+  },
+  "floating_isles": {
+    "story_1": [
+      "Floating over an endless void, the sky archipelagos of {primary_settlement} rely entirely on levitation crystals. The fragile truce between {faction_a} and {faction_b} has collapsed, severing the sky-bridges feeding {secondary_settlement}.",
+      "Catastrophe loomed when {faction_a} attempted to mine the gravity core embedded in {primary_settlement}. {faction_b} dispatched airship fleets to blockade the site, warning that core extraction will send the islands crashing into the abyss.",
+      "Gale-force winds and ether storms batter the floating docks. As {faction_a} mounts heavy harpoons in {primary_settlement}, mercs hired by {faction_b} gather in {secondary_settlement}. The islands are losing altitude, demanding immediate action."
+    ],
+    "story_2": [
+      "A rupture in primary wind currents surrounds the summit island of {primary_settlement}, rendering air travel impossible. An armed dispute between {faction_a} and {faction_b} has stranded colonies in {secondary_settlement}.",
+      "{faction_a} captured a mythical sky-beast capable of calming gales in {primary_settlement}. {faction_b} mobilized sky-pirates to free the creature, arguing that chaining it will disrupt global jet streams and smash {secondary_settlement}'s islands together.",
+      "Solar-sail ships collide amidst storm clouds. While {faction_a} fortifies the astral cage in {primary_settlement}, daring corsairs from {faction_b} plan an aerial boarding maneuver from the docks of {secondary_settlement}."
+    ],
+    "story_3": [
+      "Fragments from upper floating islands have begun crashing into residential districts of {primary_settlement}. Political deadlock between {faction_a} and {faction_b} blocked evacuations to {secondary_settlement}.",
+      "{faction_a} proposes detonating rogue floating rocks threatening {primary_settlement} using alchemical charges. However, {faction_b} fiercely opposes this, revealing those sky-lands hold ancestral tombs sacred to {secondary_settlement}.",
+      "Raining stone and shattered crystals pummel the abyss. As {faction_a} positions flak cannons in {primary_settlement}, activists from {faction_b} secure magic mooring lines in {secondary_settlement} to prevent structural collapse."
+    ],
+    "story_4": [
+      "An unstable ether portal tore open in the upper skies of {primary_settlement}, summoning electromagnetic gales. A cutthroat race to stabilize it pits {faction_a} against {faction_b}, threatening {secondary_settlement}.",
+      "{faction_a} aims to harness the rift to open trade lanes to alien realms from {primary_settlement}. {faction_b} fights to seal it immediately, fearing void horrors will swarm {secondary_settlement}.",
+      "Golden lightning pierces cracked firmaments. While {faction_a} gathers star-mages in {primary_settlement}, defenders from {faction_b} scribe sealing runes in {secondary_settlement} before the portal spreads irreversibly."
+    ]
+  },
+  "sun_desert": {
+    "story_1": [
+      "Beneath twin scorching suns, golden dunes surrounding the oasis of {primary_settlement} guard tombs of forgotten kings. Geopolitical tensions between {faction_a} and {faction_b} have halted spice and water caravans sustaining the outpost of {secondary_settlement}.",
+      "Conflict flared when the Sun Pharaoh's Tomb opened in {primary_settlement}, revealing an amulet commanding sandstorms. {faction_a} plans to march on free cities, while {faction_b} seeks to bury the relic to prevent an ancient desert curse from consuming {secondary_settlement}.",
+      "Mirages dance alongside clashing steel on hot sand. {faction_a} entrenches its legions near {primary_settlement}, while {faction_b} rallies nomads in {secondary_settlement}. A massive sandstorm approaches, threatening to entomb all life."
+    ],
+    "story_2": [
+      "The great subterranean aquifer beneath {primary_settlement} has begun drying rapidly. A ruthless war over life-giving water pits {faction_a} against {faction_b}, endangering all living beings in {secondary_settlement}.",
+      "{faction_a} seized control of deep wells in {primary_settlement} to ration water in exchange for absolute obedience. {faction_b} retaliated by destroying imperial aqueducts, promising free water for {secondary_settlement}.",
+      "Blistering sun and unbearable thirst choke the land. As {faction_a} guards the wells in {primary_settlement} with crossbows, nomads from {faction_b} launch night raids from {secondary_settlement}'s oases."
+    ],
+    "story_3": [
+      "Gigantic sand worms driven by primeval magic have awakened near {primary_settlement}. Disagreements on how to handle the beasts between {faction_a} and {faction_b} have isolated {secondary_settlement}.",
+      "{faction_a} intends to poison spice fields in {primary_settlement} to exterminate the worms. {faction_b} argues the beasts are sacred and killing them will collapse underground ecosystems in {secondary_settlement}.",
+      "The earth quakes beneath roaring behemoths. While {faction_a} prepares alchemical catapults in {primary_settlement}, shamans from {faction_b} perform ritual dances in {secondary_settlement} to redirect the worms."
+    ],
+    "story_4": [
+      "An eternal solar eclipse has plunged {primary_settlement} into unprecedented freezing darkness. A battle for the solar relic pits {faction_a} against {faction_b}, freezing wells in {secondary_settlement}.",
+      "{faction_a} accuses {faction_b} of using necromancy to steal the solar spark from {primary_settlement}'s grand temple. {faction_b} proves the high priest sold it to shadow entities for immortality in {secondary_settlement}.",
+      "Icy winds and frozen dunes disorient travelers. As {faction_a} patrols temples in {primary_settlement}, paladins from {faction_b} seek the thermal core hidden in {secondary_settlement} to restore warmth to the world."
+    ]
+  },
+  "solarpunk": {
+    "story_1": [
+      "For centuries, the realm around {primary_settlement} thrived under the influence of {theme_name}. However, an ideological rift between {faction_a} and {faction_b} has destabilized trade routes and arcane grids nourishing {secondary_settlement}.",
+      "The dispute escalated when {faction_a} discovered a forgotten reservoir of mystical energy beneath {primary_settlement}. Attempting to monopolize it, they mobilized troops, provoking a swift response from {faction_b}, who warn that tampering with the reservoir will cause a cataclysm.",
+      "Urban skirmishes and espionage now threaten open war. While {faction_a} fortifies {primary_settlement}, {faction_b} agents recruit adventurers in {secondary_settlement}. The energy source grows unstable, placing the realm's fate in the hands of bold champions."
+    ],
+    "story_2": [
+      "Bio-glass spires and floating gardens in {primary_settlement} suffer from a outbreak of glowing fungal spores. Political deadlock between {faction_a} and {faction_b} delays the cure awaited by {secondary_settlement}.",
+      "{faction_a} plans to burn infected farming sectors in {primary_settlement} using concentrated sunlight beams. {faction_b} maintains the blight is a natural forest response and seeks to adapt {secondary_settlement}'s flora.",
+      "Bioluminescent light flickers across giant tree canopies. As {faction_a} deploys solar fire prisms in {primary_settlement}, eco-mages from {faction_b} distribute natural antitoxins in {secondary_settlement}."
+    ],
+    "story_3": [
+      "A failure in the photo-arcane grid lighting {primary_settlement}'s canopy domes threatens to plunge everything into darkness. A clash over photovoltaic crystals pits {faction_a} against {faction_b}, impacting {secondary_settlement}.",
+      "{faction_a} attempts to hoard solar generators in {primary_settlement} to power central domes exclusively. {faction_b} launched sabotage operations to restore power to peripheral settlements in {secondary_settlement}.",
+      "Unprecedented shadows fall over the technomantic jungle. While {faction_a} guards light arrays in {primary_settlement}, botanical engineers from {faction_b} tap into mystic roots in {secondary_settlement} to ignite emergency light."
+    ],
+    "story_4": [
+      "The Great Mother Tree housing {primary_settlement} has begun petrifying mysteriously. The feud between {faction_a} and {faction_b} blocks access to healing sap urgently needed in {secondary_settlement}.",
+      "{faction_a} claims synthetic catalysts saved the tree in {primary_settlement}. However, {faction_b} exposes that chemicals are accelerating petrification to harvest gemstone timber for {secondary_settlement}.",
+      "Glass leaves and quartz branches creak in the wind. As {faction_a} protects injection pumps in {primary_settlement}, cyber-druids from {faction_b} search for pure seeds in {secondary_settlement} to plant a new core."
+    ]
+  },
+  "pactlands": {
+    "story_1": [
+      "In fog-draped dark woods around {primary_settlement}, whispers of forbidden pacts echo through every hollow. A direct confrontation between {faction_a} and {faction_b} has shattered ancient truces protecting coven lore and {secondary_settlement}'s Ley lines.",
+      "The crisis was sparked by unearthing the Book of Primordial Shadows in {primary_settlement}. {faction_a} seeks to summon a cosmic entity for power, while {faction_b} warns breaking the seals will unleash a demonic plague over {secondary_settlement}.",
+      "Green flames flicker on tallow candles as ravens watch the roads. While {faction_a} prepares the grand ritual in {primary_settlement}, shadow hunters from {faction_b} gather in {secondary_settlement}. A blood moon eclipse approaches, marking the final deadline."
+    ],
+    "story_2": [
+      "A pit of brimstone and shadow emerged in {primary_settlement}'s plaza, attracting lesser fiends. The desperate struggle between {faction_a} and {faction_b} paralyzed magic trade with {secondary_settlement}.",
+      "{faction_a} struck a deal with an archdevil to command fiendish legions in {primary_settlement}. {faction_b} violently opposed this, forming purification squads to cleanse pits in {secondary_settlement} before the portal opens completely.",
+      "Brimstone stench and infernal whispers fill the night. While {faction_a} fortifies slopes in {primary_settlement}, rebel warlocks from {faction_b} gather silver amulets in {secondary_settlement} to seal the rifts."
+    ],
+    "story_3": [
+      "The matriarch of the ruling coven in {primary_settlement} was assassinated with a white mandrake blade. The bloody witch hunt launched between {faction_a} and {faction_b} terrifies residents of {secondary_settlement}.",
+      "{faction_a} blames {secondary_settlement}'s warlock circle and began mass arrests in {primary_settlement}. {faction_b} asserts the matriarch was betrayed by her own acolytes to seize her pactlands.",
+      "Dried mistletoe and bloody runes mark doorways. As {faction_a} burns huts in {primary_settlement}, renegade inquisitors from {faction_b} protect refugee sages in {secondary_settlement} while investigating the crime."
+    ],
+    "story_4": [
+      "A nightmarish hallucinatory fog erupted from bogs near {primary_settlement}. A violent clash over the lunar amulet pits {faction_a} against {faction_b}, threatening {secondary_settlement}.",
+      "{faction_a} tries to weaponize the fog to subdue villages around {primary_settlement}. {faction_b} fights to synthesize an antidote using black willow roots from {secondary_settlement}.",
+      "Ghosts and shadows dance among leafless groves. While {faction_a} patrols swamps in {primary_settlement}, herbalists from {faction_b} collect night-blooming flowers in {secondary_settlement} against the clock."
+    ]
+  },
+  "vampire_courts": {
+    "story_1": [
+      "In grand crimson halls of {primary_settlement}, immortal aristocrats feast while common folk bleed. A shadowy war between {faction_a} and {faction_b} threatens the power balance with {secondary_settlement}.",
+      "The conflict erupted over shortages of 'Pure Sanguine Elixir' stored beneath {primary_settlement}. {faction_a} seeks to restrict consumption to high nobility, while {faction_b} conspires to poison {secondary_settlement}'s wells to raise an army of thralls.",
+      "Clinking crystal glasses and hidden duels define night life. As {faction_a} secures crypts in {primary_settlement}, {faction_b} infiltrators recruit living mercenaries in {secondary_settlement}. Night stretches on as the scent of fresh blood fills the air."
+    ],
+    "story_2": [
+      "A legendary vampire hunter was captured and staked in {primary_settlement}'s square. A rescue attempt by {faction_b} against {faction_a} turned the night into a bloodbath affecting {secondary_settlement}.",
+      "{faction_a} plans to execute the hunter during a full moon in {primary_settlement} to absorb his sunlight immunity. {faction_b} aims to free him in exchange for secrets to destroy elder counts in {secondary_settlement}.",
+      "Velvet drapes and bloodstains adorn cobblestone avenues. While {faction_a} guards battlements in {primary_settlement}, rebel hunters from {faction_b} infiltrate from {secondary_settlement} armed with ash stakes."
+    ],
+    "story_3": [
+      "The 'Silver Sweat' plague, lethal to trueborn vampires, spreads through {primary_settlement}'s courts. A desperate clash over alchemical medicine pits {faction_a} against {faction_b}, destabilizing {secondary_settlement}.",
+      "{faction_a} accuses {faction_b} of engineering the plague to eradicate royalty in {primary_settlement}. {faction_b} maintains the plague is divine retribution for tyranny inflicted on mortals in {secondary_settlement}.",
+      "Black carriages with heavy curtains cross bridges at midnight. As {faction_a} quarantines palaces in {primary_settlement}, plague doctors allied with {faction_b} hunt for patient zero in {secondary_settlement}."
+    ],
+    "story_4": [
+      "The Grand Conclave of Fourteen Immortal Families has convened in {primary_settlement}'s fortress. An assassination plot between {faction_a} and {faction_b} threatens county-wide war toward {secondary_settlement}.",
+      "{faction_a} seeks to crown an absolute king to unite courts under {primary_settlement}. {faction_b} planted alchemical explosives in foundations to eradicate the bloodlines and liberate {secondary_settlement}.",
+      "Carrier bats and night messengers fill gothic skies. While {faction_a} reinforces honor guards in {primary_settlement}, {faction_b} spies ignite fuses in catacombs beneath {secondary_settlement}."
+    ]
+  },
+  "silk_route": {
+    "story_1": [
+      "Along prosperous trade routes centered on {primary_settlement}, caravans laden with mystic silk and arcane spices generate vast wealth. Cutthroat commercial rivalry between {faction_a} and {faction_b} has blocked mountain passes to {secondary_settlement}.",
+      "The crisis peaked when merchants discovered legendary 'Golden Lotus Spice' near {primary_settlement}, capable of granting immortality. {faction_a} monopolized it via extortionate tariffs, while {faction_b} funds trade pirates to raid shipments bound for {secondary_settlement}.",
+      "Exotic fabric markets, poisons, and guards crowd the bazaars. As {faction_a} fortifies caravanserai in {primary_settlement}, {faction_b} agents hire smugglers in {secondary_settlement}. With routes closed and goods rotting, the trade empire stands on the brink of collapse."
+    ],
+    "story_2": [
+      "A fleet of flying junks carrying dragon silk arrived at {primary_settlement}'s river port. A violent customs dispute between {faction_a} and {faction_b} ignited fires in {secondary_settlement}'s warehouses.",
+      "{faction_a} confiscated cargo citing relic smuggling in {primary_settlement}. {faction_b} mobilized sailor unions to besiege customs towers, promising to distribute silk to struggling artisans in {secondary_settlement}.",
+      "The smell of burning cinnamon and red silk hangs heavy. While {faction_a} deploys gold guard mercenaries in {primary_settlement}, river pirates from {faction_b} raid naval armories in {secondary_settlement}."
+    ],
+    "story_3": [
+      "Mass counterfeiting of imperial jade currency has bankrupted financial houses in {primary_settlement}. The relentless hunt for counterfeiters pits {faction_a} against {faction_b}, plunging {secondary_settlement} into poverty.",
+      "{faction_a} blames alchemist guilds in {secondary_settlement} and blockaded markets in {primary_settlement}. {faction_b} proves high ministers of {faction_a} printed fake coin to finance personal wars.",
+      "Deserted bazaars and guards demanding blood taxes mark the streets. As {faction_a} executes suspects in {primary_settlement}, accountants from {faction_b} try to recover pure jade reserves hidden in {secondary_settlement}."
+    ],
+    "story_4": [
+      "A new maritime spice route was discovered, shortening travel between {primary_settlement} and {secondary_settlement}. Privateering wars between {faction_a} and {faction_b} have littered the sea with burning shipwrecks.",
+      "{faction_a} built stone forts on strait islands to tax ships from {primary_settlement}. {faction_b} equipped corsair ships with alchemical fire to destroy bulwarks and open the route to {secondary_settlement}.",
+      "Jade sails and black flags battle among coral reefs. While {faction_a} reinforces naval cannons in {primary_settlement}, corsairs from {faction_b} recruit daring captains in {secondary_settlement}'s ports to break the blockade."
+    ]
+  }
+}

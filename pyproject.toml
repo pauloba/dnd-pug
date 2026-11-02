@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dnd-worldgen"
+version = "0.1.0"
+description = "Procedural D&D universe and character sheet generator (PDF output)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "weasyprint>=60",
+    "jinja2>=3.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "ruff>=0.5",
+    "black>=24",
+    "mypy>=1.10",
+]
+
+[project.scripts]
+dnd-worldgen = "dnd_worldgen.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dnd_worldgen = [
+    "i18n/locales/*/*.json",
+    "rendering/templates/*",
+]
+
+# ---------------------------------------------------------------- tooling
+
+[tool.black]
+line-length = 79
+target-version = ["py310"]
+
+[tool.ruff]
+# PEP 8: 79 characters for code, 72 for comments and docstrings.
+line-length = 79
+target-version = "py310"
+
+[tool.ruff.lint]
+# E/W: pycodestyle (PEP 8), F: pyflakes, I: isort, N: pep8-naming,
+# UP: pyupgrade, B: bugbear, D: docstring conventions (PEP 257)
+select = ["E", "W", "F", "I", "N", "UP", "B", "D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "pep257"
+
+[tool.ruff.lint.pycodestyle]
+max-doc-length = 72
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["dnd_worldgen"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+files = ["src"]
+# WeasyPrint ships no type information
+[[tool.mypy.overrides]]
+module = ["weasyprint", "weasyprint.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,38 @@
+{
+  "fighter": {
+    "name": "Guerrero",
+    "description": "Un maestro del combate marcial, experto en el uso de diversa variedad de armas y armaduras."
+  },
+  "wizard": {
+    "name": "Mago",
+    "description": "Un estudioso de la magia capaz de alterar la estructura de la realidad mediante conjuros arcanos."
+  },
+  "rogue": {
+    "name": "Pícaro",
+    "description": "Un rufián que utiliza el sigilo, la precisión y la agilidad para explotar las debilidades del enemigo."
+  },
+  "cleric": {
+    "name": "Clérigo",
+    "description": "Un campeón sacerdotal que canaliza magia divina al servicio de una entidad superior o deidad."
+  },
+  "ranger": {
+    "name": "Explorador",
+    "description": "Un cazador de la naturaleza, experto en rastrear enemigos y dominar técnicas de supervivencia."
+  },
+  "paladin": {
+    "name": "Paladín",
+    "description": "Un guerrero santo vinculado a un juramento sagrado, combinando magia divina y pesada armadura."
+  },
+  "bard": {
+    "name": "Bardo",
+    "description": "Un artista inspirador cuya música y palabras moldean sutiles hilos de poder mágico."
+  },
+  "druid": {
+    "name": "Druida",
+    "description": "Un sacerdote de la Antigua Fe que canaliza las fuerzas primigenias de la naturaleza y formas animales."
+  },
+  "warlock": {
+    "name": "Brujo",
+    "description": "Un buscador de conocimientos esotéricos que ha forjado un pacto con una entidad de otro mundo."
+  }
+}

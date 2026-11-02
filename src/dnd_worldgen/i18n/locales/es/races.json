@@ -1,0 +1,34 @@
+{
+  "human": {
+    "name": "Humano",
+    "description": "Versátiles y ambiciosos, los humanos son supervivientes adaptables que prosperan en casi cualquier entorno."
+  },
+  "elf": {
+    "name": "Elfo",
+    "description": "Seres mágicos y longevos con una profunda conexión con la naturaleza, la gracia y la sabiduría ancestral."
+  },
+  "dwarf": {
+    "name": "Enano",
+    "description": "Guerreros y artesanos tenaces, resistentes y audaces, forjados en los profundos salones de las montañas."
+  },
+  "halfling": {
+    "name": "Mediano",
+    "description": "Un pueblo pequeño y alegre cuya sorprendente suerte y sigilo a menudo superan su modesto tamaño."
+  },
+  "tiefling": {
+    "name": "Tiefling",
+    "description": "De linaje infernal, los tieflings navegan el mundo con una determinación ardiente y carisma magnético."
+  },
+  "dragonborn": {
+    "name": "Dracónido",
+    "description": "Orgullosos descendientes de dragones que honran su linaje con fuerza e infligen aliento elemental."
+  },
+  "gnome": {
+    "name": "Gnomo",
+    "description": "Inventores e ingeniosos bromistas llenos de energía y curiosidad desbordante por el mundo."
+  },
+  "half_orc": {
+    "name": "Semi-Orco",
+    "description": "Luchadores feroces poseedores de una tenacidad e imparable fuerza física e indomable."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "fighter": {
+    "name": "Fighter",
+    "description": "A master of martial combat, skilled with a variety of weapons and defensive armor."
+  },
+  "wizard": {
+    "name": "Wizard",
+    "description": "A scholarly magic-user capable of manipulating structures of reality via arcane spells."
+  },
+  "rogue": {
+    "name": "Rogue",
+    "description": "A scoundrel who uses stealth, precision, and agility to exploit enemy vulnerabilities."
+  },
+  "cleric": {
+    "name": "Cleric",
+    "description": "A priestly champion who wields divine magic in service of a higher power or deity."
+  },
+  "ranger": {
+    "name": "Ranger",
+    "description": "A warrior of the wilderness, tracking foes and mastering survival and martial skills."
+  },
+  "paladin": {
+    "name": "Paladin",
+    "description": "A holy warrior bound to a sacred oath, combining divine magic with heavy armor."
+  },
+  "bard": {
+    "name": "Bard",
+    "description": "An inspiring performer whose music and words weave subtle weaves of magical force."
+  },
+  "druid": {
+    "name": "Druid",
+    "description": "A priest of the Old Faith, drawing upon primeval nature powers and elemental forms."
+  },
+  "warlock": {
+    "name": "Warlock",
+    "description": "A seeker of esoteric knowledge who struck a pact with an otherworldly entity."
+  }
+}
