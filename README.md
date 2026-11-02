@@ -1,4 +1,4 @@
-# dnd-worldgen
+# DND-PUG
 
 A procedural **D&D universe and character generator**. It writes a
 universe manual (`game.pdf`) and one PDF character sheet per player,
@@ -14,6 +14,7 @@ seed and settings always give the same universe.
 Python 3.10 or newer.
 
 ```bash
+bash
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
