@@ -16,7 +16,8 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠙⠦⣀⠙⢿⣤⣿⣍⣛⡴⠋⣠⠶⠃⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠈⠻⣿⣿⠟⠁⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-``
+```
+
 
 A procedural **D&D universe and character generator**. It writes a
 universe manual (`game.pdf`) and one PDF character sheet per player,
