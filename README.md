@@ -34,7 +34,8 @@ Python 3.10 or newer.
 
 ```bash
 bash
-python -m venv .venv
+cd ~/Downloads/dnd-pug
+python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 ```
@@ -48,7 +49,7 @@ Everything except writing the PDF itself works without them.
 ## Usage
 
 ```bash
-python -m dnd_worldgen                 # asks for everything
+python3 -m dnd_worldgen                 # asks for everything
 dnd-worldgen --lang es --theme 6 --players 4 --level 3 --seed 42
 ```
 
@@ -106,6 +107,18 @@ src/dnd_worldgen/
 └── rendering/        view models, Jinja2 templates, CSS, PDF writer
 tests/                one test module per area
 docs/                 the refactoring plan and its history
+```
+## Available universes
+```
+1) High Fantasy Steampunk
+2) Post-Apocalyptic Arcana
+3) Gothic Sunless Ocean
+4) Shattered Floating Isles
+5) Ancient Sun-Drenched Desert
+6) Solarpunk Arcane Canopy
+7) Covenstead & Warlock Pactlands
+8) Sanguine Aristocracy & Vampire Courts
+9) Silk Route Silk & Spice Merchant Empires
 ```
 
 ## Adding a language
